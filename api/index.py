@@ -208,7 +208,9 @@ async def analyze_image(file: UploadFile = File(...), db: AsyncSession = Depends
     try:
         ml_data = segment_buildings(contents)
     except Exception as e:
-        raise HTTPException(502, f"ML inference failed: {str(e)[:150]}")
+        import traceback
+        tb = traceback.format_exc()
+        raise HTTPException(502, f"ML inference failed: {str(e)[:200]}\n{tb[:2000]}")
     if "error" in ml_data:
         raise HTTPException(502, f"ML inference error: {ml_data['error']}")
 
