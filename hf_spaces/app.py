@@ -7,6 +7,8 @@ import numpy as np
 import base64
 import io
 import json
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -38,7 +40,6 @@ def predict(image):
 
     mask_pil = Image.fromarray(building_mask * 255).resize(orig_size)
 
-    # Convert mask to base64 for API response
     buffered = io.BytesIO()
     mask_pil.save(buffered, format="PNG")
     mask_b64 = base64.b64encode(buffered.getvalue()).decode()
@@ -66,5 +67,25 @@ with gr.Blocks() as demo:
         outputs=[output_img, stats]
     )
 
-# Expose API endpoint for Vercel
-gr.mount_gradio_app(demo, "/api/predict")
+# Mount Gradio on FastAPI
+app = gr.mount_gradio_app(demo, "/")
+
+# Add API endpoint for Vercel
+class PredictRequest(BaseModel):
+    image: str  # base64 encoded image
+
+class PredictResponse(BaseModel):
+    building_pixels: int
+    total_pixels: int
+    urban_percentage: int
+    mask_b64: str
+
+@app.post("/api/predict")
+async def api_predict(request: PredictRequest):
+    try:
+        image_bytes = base64.b64decode(request.image)
+        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+        result = predict(image)
+        return PredictResponse(**result)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
