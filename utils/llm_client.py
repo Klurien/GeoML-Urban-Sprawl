@@ -4,9 +4,9 @@ import httpx
 HF_TOKEN = os.getenv("HF_TOKEN", "")
 API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 
-async def generate_report(building_pixels: int, urban_pct: int) -> str:
+def generate_report(building_pixels: int, urban_pct: int) -> str:
     if not HF_TOKEN:
-        return "⚠️ Configuration error: HF_TOKEN not set."
+        return "Configuration error: HF_TOKEN not set."
 
     prompt = f"""<|system|>
 You are a helpful urban planning assistant.
@@ -25,13 +25,13 @@ Write a short 2-paragraph official warning memo to the County Governor about thi
         }
     }
 
-    async with httpx.AsyncClient(timeout=30.0) as client:
+    with httpx.Client(timeout=30.0) as client:
         try:
-            response = await client.post(API_URL, headers=headers, json=payload)
+            response = client.post(API_URL, headers=headers, json=payload)
             response.raise_for_status()
             result = response.json()
             if isinstance(result, list) and len(result) > 0:
                 return result[0].get("generated_text", "").strip()
             return str(result)
         except Exception as e:
-            return f"⚠️ Report generation unavailable: {str(e)[:100]}"
+            return f"Report generation unavailable: {str(e)[:100]}"

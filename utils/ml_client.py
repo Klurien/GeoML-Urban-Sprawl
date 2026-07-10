@@ -1,6 +1,5 @@
 import os
 import base64
-import asyncio
 import httpx
 from io import BytesIO
 from PIL import Image
@@ -10,19 +9,20 @@ HF_TOKEN = os.getenv("HF_TOKEN", "")
 MODEL = "nvidia/segformer-b0-finetuned-ade-512-512"
 API_URL = f"https://api-inference.huggingface.co/models/{MODEL}"
 
-async def segment_buildings(image_bytes: bytes, max_retries: int = 3) -> dict:
+def segment_buildings(image_bytes: bytes, max_retries: int = 2) -> dict:
     if not HF_TOKEN:
         return {"error": "HF_TOKEN not set"}
 
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
     for attempt in range(max_retries):
-        async with httpx.AsyncClient(timeout=120.0) as client:
-            response = await client.post(API_URL, headers=headers, content=image_bytes)
+        with httpx.Client(timeout=120.0) as client:
+            response = client.post(API_URL, headers=headers, content=image_bytes)
 
         if response.status_code == 503 and "loading" in response.text.lower():
             if attempt < max_retries - 1:
-                await asyncio.sleep(2 ** attempt)
+                import time
+                time.sleep(2 ** attempt)
                 continue
 
         response.raise_for_status()

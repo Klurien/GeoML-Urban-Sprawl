@@ -206,14 +206,14 @@ async def analyze_image(file: UploadFile = File(...), db: AsyncSession = Depends
 
     # Run ML inference via HF Inference API directly
     try:
-        ml_data = await segment_buildings(contents)
+        ml_data = segment_buildings(contents)
     except Exception as e:
         raise HTTPException(502, f"ML inference failed: {str(e)[:150]}")
     if "error" in ml_data:
         raise HTTPException(502, f"ML inference error: {ml_data['error']}")
 
     # Generate LLM report
-    report = await generate_report(ml_data.get("building_pixels", 0), ml_data.get("urban_percentage", 0))
+    report = generate_report(ml_data.get("building_pixels", 0), ml_data.get("urban_percentage", 0))
 
     # Store in PostgreSQL
     analysis = Analysis(
