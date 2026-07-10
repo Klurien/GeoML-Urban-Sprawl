@@ -1,0 +1,7139 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.07294631004335,
+              40.743299888958035
+            ],
+            [
+              -74.08393263816835,
+              40.72977146089193
+            ],
+            [
+              -74.06281828880311,
+              40.72287610781236
+            ],
+            [
+              -74.04736876487733,
+              40.73029183590861
+            ],
+            [
+              -74.05578017234804,
+              40.740828554567386
+            ],
+            [
+              -74.06479239463808,
+              40.72905593860055
+            ],
+            [
+              -74.07294631004335,
+              40.743299888958035
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716141311_9vzm1v72c",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716141311_9vzm1v72c",
+        "description": "",
+        "measurements": {
+          "area": 3229145.8445691545,
+          "areaKm": 3.2291458445691545,
+          "perimeter": 9853.833990538014,
+          "vertices": 6
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:42:20.424Z",
+        "updated": "2026-07-10T20:42:32.959Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06217455863954,
+              40.7260473169122
+            ],
+            [
+              -74.06289339065553,
+              40.725315533108144
+            ],
+            [
+              -74.06138062477113,
+              40.724811410695864
+            ],
+            [
+              -74.06091928482057,
+              40.725348057003615
+            ],
+            [
+              -74.06217455863954,
+              40.7260473169122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716160207_6gnnqr55c",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:43:48.808Z",
+        "measurements": {
+          "area": 11577.662942860481,
+          "areaKm": 0.011577662942860481,
+          "perimeter": 443.2029937179665,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:42:39.012Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06217455863954,
+              40.7260473169122
+            ],
+            [
+              -74.06289339065553,
+              40.725315533108144
+            ],
+            [
+              -74.06138062477113,
+              40.724811410695864
+            ],
+            [
+              -74.06091928482057,
+              40.725348057003615
+            ],
+            [
+              -74.06217455863954,
+              40.7260473169122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716160207_6gnnqr55c",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:42:39.012Z",
+        "measurements": {
+          "area": 11577.662942860481,
+          "areaKm": 0.011577662942860481,
+          "perimeter": 443.2029937179665,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:42:39.012Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06450271606447,
+              40.72516104756431
+            ],
+            [
+              -74.06506061553956,
+              40.724315436096056
+            ],
+            [
+              -74.06419157981874,
+              40.72393328123458
+            ],
+            [
+              -74.06356930732728,
+              40.724713850530215
+            ],
+            [
+              -74.06450271606447,
+              40.72516104756431
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716237620_ns96rerak",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:44:19.336Z",
+        "measurements": {
+          "area": 9179.768888864557,
+          "areaKm": 0.009179768888864556,
+          "perimeter": 384.25938576948005,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:43:56.375Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06450271606447,
+              40.72516104756431
+            ],
+            [
+              -74.06506061553956,
+              40.724315436096056
+            ],
+            [
+              -74.06419157981874,
+              40.72393328123458
+            ],
+            [
+              -74.06356930732728,
+              40.724713850530215
+            ],
+            [
+              -74.06450271606447,
+              40.72516104756431
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716237620_ns96rerak",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:43:56.375Z",
+        "measurements": {
+          "area": 9179.768888864557,
+          "areaKm": 0.009179768888864556,
+          "perimeter": 384.25938576948005,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:43:56.375Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06297922134401,
+              40.72518543964205
+            ],
+            [
+              -74.06336545944215,
+              40.72470571959754
+            ],
+            [
+              -74.06236767768861,
+              40.7241284247902
+            ],
+            [
+              -74.06180977821352,
+              40.72458375632304
+            ],
+            [
+              -74.06297922134401,
+              40.72518543964205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716269450_zd2ssl3pg",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:44:46.419Z",
+        "measurements": {
+          "area": 7371.22990062588,
+          "areaKm": 0.00737122990062588,
+          "perimeter": 356.47918717582667,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:44:28.470Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06297922134401,
+              40.72518543964205
+            ],
+            [
+              -74.06336545944215,
+              40.72470571959754
+            ],
+            [
+              -74.06236767768861,
+              40.7241284247902
+            ],
+            [
+              -74.06180977821352,
+              40.72458375632304
+            ],
+            [
+              -74.06297922134401,
+              40.72518543964205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716269450_zd2ssl3pg",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:44:28.470Z",
+        "measurements": {
+          "area": 7371.22990062588,
+          "areaKm": 0.00737122990062588,
+          "perimeter": 356.47918717582667,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:44:28.470Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06406283378602,
+              40.72386823356878
+            ],
+            [
+              -74.06345129013063,
+              40.72458375612241
+            ],
+            [
+              -74.0621852874756,
+              40.72395767430864
+            ],
+            [
+              -74.06260371208192,
+              40.72336411078697
+            ],
+            [
+              -74.06406283378602,
+              40.72386823356878
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716296077_o64e72a17",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:45:17.566Z",
+        "measurements": {
+          "area": 11108.894169052468,
+          "areaKm": 0.011108894169052468,
+          "perimeter": 432.1514358287344,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:44:55.259Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06406283378602,
+              40.72386823356878
+            ],
+            [
+              -74.06345129013063,
+              40.72458375612241
+            ],
+            [
+              -74.0621852874756,
+              40.72395767430864
+            ],
+            [
+              -74.06260371208192,
+              40.72336411078697
+            ],
+            [
+              -74.06406283378602,
+              40.72386823356878
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716296077_o64e72a17",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:44:55.259Z",
+        "measurements": {
+          "area": 11108.894169052468,
+          "areaKm": 0.011108894169052468,
+          "perimeter": 432.1514358287344,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:44:55.259Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06435251235963,
+              40.725429364156646
+            ],
+            [
+              -74.0641486644745,
+              40.725998517308206
+            ],
+            [
+              -74.06309723854066,
+              40.72541310256652
+            ],
+            [
+              -74.06348347663881,
+              40.72482768267535
+            ],
+            [
+              -74.06435251235963,
+              40.725429364156646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716325198_ucn4ve654",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:45:38.296Z",
+        "measurements": {
+          "area": 6850.443194003236,
+          "areaKm": 0.0068504431940032365,
+          "perimeter": 347.49238438274267,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:45:24.297Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06435251235963,
+              40.725429364156646
+            ],
+            [
+              -74.0641486644745,
+              40.725998517308206
+            ],
+            [
+              -74.06309723854066,
+              40.72541310256652
+            ],
+            [
+              -74.06348347663881,
+              40.72482768267535
+            ],
+            [
+              -74.06435251235963,
+              40.725429364156646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716325198_ucn4ve654",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:45:24.297Z",
+        "measurements": {
+          "area": 6850.443194003236,
+          "areaKm": 0.0068504431940032365,
+          "perimeter": 347.49238438274267,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:45:24.297Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0638053417206,
+              40.7264700970995
+            ],
+            [
+              -74.06400918960573,
+              40.726063562908855
+            ],
+            [
+              -74.06296849250795,
+              40.72543749539824
+            ],
+            [
+              -74.06253933906557,
+              40.7259822557727
+            ],
+            [
+              -74.0638053417206,
+              40.7264700970995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716355768_20czjmdfa",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:47:52.586Z",
+        "measurements": {
+          "area": 6807.316741705929,
+          "areaKm": 0.006807316741705929,
+          "perimeter": 350.55863579773944,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:45:54.726Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0638053417206,
+              40.7264700970995
+            ],
+            [
+              -74.06400918960573,
+              40.726063562908855
+            ],
+            [
+              -74.06296849250795,
+              40.72543749539824
+            ],
+            [
+              -74.06253933906557,
+              40.7259822557727
+            ],
+            [
+              -74.0638053417206,
+              40.7264700970995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716355768_20czjmdfa",
+        "annotationType": "polygon",
+        "name": "urban",
+        "description": "",
+        "label": "urban",
+        "color": "#3388ff",
+        "opacity": 0.7,
+        "updated": "2026-07-10T20:45:54.726Z",
+        "measurements": {
+          "area": 6807.316741705929,
+          "areaKm": 0.006807316741705929,
+          "perimeter": 350.55863579773944,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#3388ff",
+          "fillColor": "#3388ff",
+          "fillOpacity": 0.7,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:45:54.726Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.7,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06620860099794,
+              40.72472196850862
+            ],
+            [
+              -74.06743168830873,
+              40.722364040819585
+            ],
+            [
+              -74.06732439994813,
+              40.722298993354435
+            ],
+            [
+              -74.0667235851288,
+              40.723217782906566
+            ],
+            [
+              -74.06639099121095,
+              40.72407151404195
+            ],
+            [
+              -74.06609058380128,
+              40.72454309416404
+            ],
+            [
+              -74.06581163406373,
+              40.7245756168079
+            ],
+            [
+              -74.06516790390016,
+              40.7242666510495
+            ],
+            [
+              -74.06544685363771,
+              40.72429917382844
+            ],
+            [
+              -74.06620860099794,
+              40.72472196850862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716412128_yrylogrwb",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716412128_yrylogrwb",
+        "description": "",
+        "measurements": {
+          "area": 4062.979229808509,
+          "areaKm": 0.004062979229808509,
+          "perimeter": 755.8773343862212,
+          "vertices": 9
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:46:51.115Z",
+        "updated": "2026-07-10T20:46:58.750Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06618714332582,
+              40.72173796767078
+            ],
+            [
+              -74.06495332717897,
+              40.724120288442855
+            ],
+            [
+              -74.06468510627748,
+              40.724006459356225
+            ],
+            [
+              -74.06603693962099,
+              40.72170544393027
+            ],
+            [
+              -74.06618714332582,
+              40.72173796767078
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716429413_ehrosbdar",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716429413_ehrosbdar",
+        "description": "",
+        "measurements": {
+          "area": 5489.471959853843,
+          "areaKm": 0.005489471959853843,
+          "perimeter": 603.7240578877812,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.8,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:47:07.686Z",
+        "updated": "2026-07-10T20:53:57.686Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06378388404848,
+              40.72664084137763
+            ],
+            [
+              -74.06251788139345,
+              40.72604730106041
+            ],
+            [
+              -74.06257152557374,
+              40.72596599375541
+            ],
+            [
+              -74.06377315521242,
+              40.726527012138
+            ],
+            [
+              -74.06378388404848,
+              40.72664084137763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716450918_jd3it6gdj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716450918_jd3it6gdj",
+        "description": "",
+        "measurements": {
+          "area": 1246.8420614691356,
+          "areaKm": 0.0012468420614691355,
+          "perimeter": 267.17678643456975,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:47:29.382Z",
+        "updated": "2026-07-10T20:47:42.252Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06378388404848,
+              40.72664084137763
+            ],
+            [
+              -74.06251788139345,
+              40.72604730106041
+            ],
+            [
+              -74.06257152557374,
+              40.72596599375541
+            ],
+            [
+              -74.06377315521242,
+              40.726527012138
+            ],
+            [
+              -74.06378388404848,
+              40.72664084137763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716450918_jd3it6gdj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716450918_jd3it6gdj",
+        "description": "",
+        "measurements": {
+          "area": 1246.8420614691356,
+          "areaKm": 0.0012468420614691355,
+          "perimeter": 267.17678643456975,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:47:29.382Z",
+        "updated": "2026-07-10T20:47:29.382Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06561851501466,
+              40.72755149104515
+            ],
+            [
+              -74.064599275589,
+              40.72690103022107
+            ],
+            [
+              -74.06384825706483,
+              40.726510750675054
+            ],
+            [
+              -74.06338691711427,
+              40.72620990862963
+            ],
+            [
+              -74.06344056129457,
+              40.726144861522094
+            ],
+            [
+              -74.06565070152284,
+              40.72747018378981
+            ],
+            [
+              -74.06561851501466,
+              40.72755149104515
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716486058_t68imeo6w",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716486058_t68imeo6w",
+        "description": "",
+        "measurements": {
+          "area": 1883.8726648216907,
+          "areaKm": 0.0018838726648216907,
+          "perimeter": 495.7711318692513,
+          "vertices": 6
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.8,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:48:04.980Z",
+        "updated": "2026-07-10T20:53:50.688Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06129479408266,
+              40.7248032619645
+            ],
+            [
+              -74.06304359436037,
+              40.72270550248512
+            ],
+            [
+              -74.06293630599977,
+              40.722648585608916
+            ],
+            [
+              -74.06115531921388,
+              40.72478700051742
+            ],
+            [
+              -74.06129479408266,
+              40.7248032619645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716506598_e2clyztw0",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716506598_e2clyztw0",
+        "description": "",
+        "measurements": {
+          "area": 3060.7712739463245,
+          "areaKm": 0.0030607712739463247,
+          "perimeter": 580.0283227732397,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.8,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:48:25.354Z",
+        "updated": "2026-07-10T20:54:08.949Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06348347663881,
+              40.724665065469715
+            ],
+            [
+              -74.06220674514772,
+              40.724038983503
+            ],
+            [
+              -74.06215310096742,
+              40.7241202931821
+            ],
+            [
+              -74.06347274780275,
+              40.72473824349697
+            ],
+            [
+              -74.06348347663881,
+              40.724665065469715
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716532869_0mr6qz6dx",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716532869_0mr6qz6dx",
+        "description": "",
+        "measurements": {
+          "area": 1129.7615022160953,
+          "areaKm": 0.0011297615022160953,
+          "perimeter": 277.16672611103866,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:48:49.198Z",
+        "updated": "2026-07-10T20:49:01.382Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06348347663881,
+              40.724665065469715
+            ],
+            [
+              -74.06220674514772,
+              40.724038983503
+            ],
+            [
+              -74.06215310096742,
+              40.7241202931821
+            ],
+            [
+              -74.06347274780275,
+              40.72473824349697
+            ],
+            [
+              -74.06348347663881,
+              40.724665065469715
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716532869_0mr6qz6dx",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716532869_0mr6qz6dx",
+        "description": "",
+        "measurements": {
+          "area": 1129.7615022160953,
+          "areaKm": 0.0011297615022160953,
+          "perimeter": 277.16672611103866,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:48:49.198Z",
+        "updated": "2026-07-10T20:48:49.198Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06403064727785,
+              40.72448618592399
+            ],
+            [
+              -74.06144499778749,
+              40.72362429858736
+            ],
+            [
+              -74.06131625175477,
+              40.723746264454455
+            ],
+            [
+              -74.06383752822877,
+              40.724543102619386
+            ],
+            [
+              -74.06403064727785,
+              40.72448618592399
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716554560_tl8ixk8qq",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716554560_tl8ixk8qq",
+        "description": "",
+        "measurements": {
+          "area": 3398.351889823172,
+          "areaKm": 0.0033983518898231717,
+          "perimeter": 503.0708273593189,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.8,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:49:13.254Z",
+        "updated": "2026-07-10T20:54:03.008Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06255006790163,
+              40.72304700026063
+            ],
+            [
+              -74.06143426895143,
+              40.724656933480155
+            ],
+            [
+              -74.06169176101686,
+              40.724770765668026
+            ],
+            [
+              -74.06276464462282,
+              40.72312831095292
+            ],
+            [
+              -74.06255006790163,
+              40.72304700026063
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716581361_hnhmrx9pr",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716581361_hnhmrx9pr",
+        "description": "",
+        "measurements": {
+          "area": 4607.576782049322,
+          "areaKm": 0.004607576782049322,
+          "perimeter": 451.3331221208486,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:49:40.346Z",
+        "updated": "2026-07-10T20:49:40.346Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06086564064027,
+              40.725388710237446
+            ],
+            [
+              -74.06148791313173,
+              40.724526840063746
+            ],
+            [
+              -74.06055450439455,
+              40.72425038877594
+            ],
+            [
+              -74.06009316444398,
+              40.72479515933316
+            ],
+            [
+              -74.06086564064027,
+              40.725388710237446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716872905_qx7hao4rs",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716872905_qx7hao4rs",
+        "description": "",
+        "measurements": {
+          "area": 7847.1834518921,
+          "areaKm": 0.007847183451892099,
+          "perimeter": 358.3742615088297,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:54:32.903Z",
+        "updated": "2026-07-10T20:54:48.819Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06086564064027,
+              40.725388710237446
+            ],
+            [
+              -74.06148791313173,
+              40.724526840063746
+            ],
+            [
+              -74.06055450439455,
+              40.72425038877594
+            ],
+            [
+              -74.06009316444398,
+              40.72479515933316
+            ],
+            [
+              -74.06086564064027,
+              40.725388710237446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716872905_qx7hao4rs",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716872905_qx7hao4rs",
+        "description": "",
+        "measurements": {
+          "area": 7847.1834518921,
+          "areaKm": 0.007847183451892099,
+          "perimeter": 358.3742615088297,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:54:32.903Z",
+        "updated": "2026-07-10T20:54:32.903Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0588700771332,
+              40.72420160305987
+            ],
+            [
+              -74.0591061115265,
+              40.72376253068545
+            ],
+            [
+              -74.05649900436403,
+              40.72299008151497
+            ],
+            [
+              -74.05632734298707,
+              40.72332345541451
+            ],
+            [
+              -74.0588700771332,
+              40.72420160305987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716904259_mfsoavpxz",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716904259_mfsoavpxz",
+        "description": "",
+        "measurements": {
+          "area": 10919.761082646763,
+          "areaKm": 0.010919761082646763,
+          "perimeter": 563.8852617678951,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:55:04.257Z",
+        "updated": "2026-07-10T20:55:06.215Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0588700771332,
+              40.72420160305987
+            ],
+            [
+              -74.0591061115265,
+              40.72376253068545
+            ],
+            [
+              -74.05649900436403,
+              40.72299008151497
+            ],
+            [
+              -74.05632734298707,
+              40.72332345541451
+            ],
+            [
+              -74.0588700771332,
+              40.72420160305987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716904259_mfsoavpxz",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716904259_mfsoavpxz",
+        "description": "",
+        "measurements": {
+          "area": 10919.761082646763,
+          "areaKm": 0.010919761082646763,
+          "perimeter": 563.8852617678951,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:55:04.257Z",
+        "updated": "2026-07-10T20:55:04.257Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05909538269044,
+              40.72361617258364
+            ],
+            [
+              -74.05937433242799,
+              40.72311204776948
+            ],
+            [
+              -74.05808687210084,
+              40.722705492718646
+            ],
+            [
+              -74.0580439567566,
+              40.72322588273869
+            ],
+            [
+              -74.05909538269044,
+              40.72361617258364
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716938588_8e9ubq0bu",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716938588_8e9ubq0bu",
+        "description": "",
+        "measurements": {
+          "area": 6228.245198291976,
+          "areaKm": 0.006228245198291976,
+          "perimeter": 334.9631621469689,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:55:38.587Z",
+        "updated": "2026-07-10T20:55:48.769Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05909538269044,
+              40.72361617258364
+            ],
+            [
+              -74.05937433242799,
+              40.72311204776948
+            ],
+            [
+              -74.05808687210084,
+              40.722705492718646
+            ],
+            [
+              -74.0580439567566,
+              40.72322588273869
+            ],
+            [
+              -74.05909538269044,
+              40.72361617258364
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716938588_8e9ubq0bu",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716938588_8e9ubq0bu",
+        "description": "",
+        "measurements": {
+          "area": 6228.245198291976,
+          "areaKm": 0.006228245198291976,
+          "perimeter": 334.9631621469689,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:55:38.587Z",
+        "updated": "2026-07-10T20:55:38.587Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05951380729677,
+              40.722908770708486
+            ],
+            [
+              -74.05827999114992,
+              40.7225428699335
+            ],
+            [
+              -74.05848383903505,
+              40.722233885490354
+            ],
+            [
+              -74.05957818031312,
+              40.72255913223287
+            ],
+            [
+              -74.05951380729677,
+              40.722908770708486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716960975_wbb4ar3vi",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716960975_wbb4ar3vi",
+        "description": "",
+        "measurements": {
+          "area": 4035.4885773200776,
+          "areaKm": 0.004035488577320077,
+          "perimeter": 288.38109135916767,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:00.973Z",
+        "updated": "2026-07-10T20:56:09.577Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05951380729677,
+              40.722908770708486
+            ],
+            [
+              -74.05827999114992,
+              40.7225428699335
+            ],
+            [
+              -74.05848383903505,
+              40.722233885490354
+            ],
+            [
+              -74.05957818031312,
+              40.72255913223287
+            ],
+            [
+              -74.05951380729677,
+              40.722908770708486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716960975_wbb4ar3vi",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716960975_wbb4ar3vi",
+        "description": "",
+        "measurements": {
+          "area": 4035.4885773200776,
+          "areaKm": 0.004035488577320077,
+          "perimeter": 288.38109135916767,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:00.973Z",
+        "updated": "2026-07-10T20:56:00.973Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05773818492891,
+              40.72316083420869
+            ],
+            [
+              -74.05790984630586,
+              40.72277054169368
+            ],
+            [
+              -74.05695497989656,
+              40.722376181307105
+            ],
+            [
+              -74.05668139457704,
+              40.722880311694844
+            ],
+            [
+              -74.05773818492891,
+              40.72316083420869
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716980639_5zqt9dr66",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716980639_5zqt9dr66",
+        "description": "",
+        "measurements": {
+          "area": 4930.03476932855,
+          "areaKm": 0.00493003476932855,
+          "perimeter": 292.3621311864447,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 1,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:20.638Z",
+        "updated": "2026-07-10T20:56:20.638Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05773818492891,
+              40.72316083420869
+            ],
+            [
+              -74.05790984630586,
+              40.72277054169368
+            ],
+            [
+              -74.05695497989656,
+              40.722376181307105
+            ],
+            [
+              -74.05668139457704,
+              40.722880311694844
+            ],
+            [
+              -74.05773818492891,
+              40.72316083420869
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716980639_5zqt9dr66",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716980639_5zqt9dr66",
+        "description": "",
+        "measurements": {
+          "area": 4930.03476932855,
+          "areaKm": 0.00493003476932855,
+          "perimeter": 292.3621311864447,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 1,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:20.638Z",
+        "updated": "2026-07-10T20:56:20.638Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05812978744508,
+              40.72249814894477
+            ],
+            [
+              -74.05824780464174,
+              40.72219322970462
+            ],
+            [
+              -74.05722320079805,
+              40.721904571536825
+            ],
+            [
+              -74.05702471733095,
+              40.72222168889281
+            ],
+            [
+              -74.05812978744508,
+              40.72249814894477
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716996072_0szdm5se7",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716996072_0szdm5se7",
+        "description": "",
+        "measurements": {
+          "area": 3530.3258280202526,
+          "areaKm": 0.0035303258280202526,
+          "perimeter": 264.5504976283423,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:36.071Z",
+        "updated": "2026-07-10T20:56:44.734Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05812978744508,
+              40.72249814894477
+            ],
+            [
+              -74.05824780464174,
+              40.72219322970462
+            ],
+            [
+              -74.05722320079805,
+              40.721904571536825
+            ],
+            [
+              -74.05702471733095,
+              40.72222168889281
+            ],
+            [
+              -74.05812978744508,
+              40.72249814894477
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783716996072_0szdm5se7",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783716996072_0szdm5se7",
+        "description": "",
+        "measurements": {
+          "area": 3530.3258280202526,
+          "areaKm": 0.0035303258280202526,
+          "perimeter": 264.5504976283423,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:36.071Z",
+        "updated": "2026-07-10T20:56:36.071Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05711591243745,
+              40.72173381602529
+            ],
+            [
+              -74.05640780925752,
+              40.7214939438348
+            ],
+            [
+              -74.05583381652833,
+              40.722693296142744
+            ],
+            [
+              -74.05642926692964,
+              40.722868115183005
+            ],
+            [
+              -74.05711591243745,
+              40.72173381602529
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717018078_d87qe56zj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717018078_d87qe56zj",
+        "description": "",
+        "measurements": {
+          "area": 8369.913372298788,
+          "areaKm": 0.008369913372298789,
+          "perimeter": 399.8093703816328,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:58.076Z",
+        "updated": "2026-07-10T20:57:07.126Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05711591243745,
+              40.72173381602529
+            ],
+            [
+              -74.05640780925752,
+              40.7214939438348
+            ],
+            [
+              -74.05583381652833,
+              40.722693296142744
+            ],
+            [
+              -74.05642926692964,
+              40.722868115183005
+            ],
+            [
+              -74.05711591243745,
+              40.72173381602529
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717018078_d87qe56zj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717018078_d87qe56zj",
+        "description": "",
+        "measurements": {
+          "area": 8369.913372298788,
+          "areaKm": 0.008369913372298789,
+          "perimeter": 399.8093703816328,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:56:58.076Z",
+        "updated": "2026-07-10T20:56:58.076Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05615031719209,
+              40.72141669671868
+            ],
+            [
+              -74.05556559562685,
+              40.72256726343046
+            ],
+            [
+              -74.05509889125825,
+              40.72240057478547
+            ],
+            [
+              -74.05546367168428,
+              40.72119308603888
+            ],
+            [
+              -74.05615031719209,
+              40.72141669671868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717034819_f7wm2nt85",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717034819_f7wm2nt85",
+        "description": "",
+        "measurements": {
+          "area": 7255.709867149039,
+          "areaKm": 0.007255709867149039,
+          "perimeter": 381.3004286417667,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:14.818Z",
+        "updated": "2026-07-10T20:57:25.763Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05615031719209,
+              40.72141669671868
+            ],
+            [
+              -74.05556559562685,
+              40.72256726343046
+            ],
+            [
+              -74.05509889125825,
+              40.72240057478547
+            ],
+            [
+              -74.05546367168428,
+              40.72119308603888
+            ],
+            [
+              -74.05615031719209,
+              40.72141669671868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717034819_f7wm2nt85",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717034819_f7wm2nt85",
+        "description": "",
+        "measurements": {
+          "area": 7255.709867149039,
+          "areaKm": 0.007255709867149039,
+          "perimeter": 381.3004286417667,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:14.818Z",
+        "updated": "2026-07-10T20:57:14.818Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05596256256105,
+            40.72449431636692
+          ],
+          [
+            -74.05598402023317,
+            40.724445530905136
+          ],
+          [
+            -74.05619859695436,
+            40.72412029357944
+          ],
+          [
+            -74.05628442764284,
+            40.72395767432058
+          ],
+          [
+            -74.05647754669191,
+            40.72355112443509
+          ],
+          [
+            -74.05654191970827,
+            40.723404765868395
+          ],
+          [
+            -74.05660629272462,
+            40.723290931205135
+          ],
+          [
+            -74.05667066574098,
+            40.72317709634715
+          ],
+          [
+            -74.0567994117737,
+            40.72288437724698
+          ],
+          [
+            -74.05684232711793,
+            40.72273801721413
+          ],
+          [
+            -74.05688524246217,
+            40.72264044368009
+          ],
+          [
+            -74.05694961547853,
+            40.72249408311082
+          ],
+          [
+            -74.05694961547853,
+            40.72242903386563
+          ],
+          [
+            -74.05699253082277,
+            40.72236398455685
+          ],
+          [
+            -74.05701398849489,
+            40.72229893518451
+          ],
+          [
+            -74.05705690383913,
+            40.72220136100681
+          ],
+          [
+            -74.05705690383913,
+            40.722168836249104
+          ],
+          [
+            -74.05709981918336,
+            40.722120049082775
+          ],
+          [
+            -74.05709981918336,
+            40.72210378668606
+          ],
+          [
+            -74.05709981918336,
+            40.72208752428535
+          ],
+          [
+            -74.05709981918336,
+            40.72207126188067
+          ],
+          [
+            -74.05709981918336,
+            40.72210378668606
+          ],
+          [
+            -74.05707836151124,
+            40.72218509862994
+          ],
+          [
+            -74.057035446167,
+            40.72229893518451
+          ],
+          [
+            -74.05699253082277,
+            40.72242903386563
+          ],
+          [
+            -74.05694961547853,
+            40.722526607709575
+          ],
+          [
+            -74.05690670013429,
+            40.7226241814105
+          ],
+          [
+            -74.05688524246217,
+            40.72268923046499
+          ],
+          [
+            -74.05677795410158,
+            40.72285185282303
+          ],
+          [
+            -74.05671358108522,
+            40.72299821260559
+          ],
+          [
+            -74.05662775039674,
+            40.72317709634715
+          ],
+          [
+            -74.05649900436403,
+            40.72342102794725
+          ],
+          [
+            -74.05643463134767,
+            40.72350233828195
+          ],
+          [
+            -74.05637025833131,
+            40.72361617258365
+          ],
+          [
+            -74.05617713928224,
+            40.72387636454214
+          ],
+          [
+            -74.05609130859376,
+            40.72399019820414
+          ],
+          [
+            -74.0560269355774,
+            40.72407150784349
+          ],
+          [
+            -74.05596256256105,
+            40.724136555483476
+          ],
+          [
+            -74.05589818954469,
+            40.72423412682422
+          ],
+          [
+            -74.05585527420045,
+            40.72426665057267
+          ],
+          [
+            -74.05581235885622,
+            40.72433169802195
+          ],
+          [
+            -74.05576944351198,
+            40.724364221722716
+          ],
+          [
+            -74.05574798583986,
+            40.72438048356716
+          ],
+          [
+            -74.05570507049562,
+            40.724429269076595
+          ],
+          [
+            -74.05564069747926,
+            40.72449431636692
+          ],
+          [
+            -74.05559778213502,
+            40.72452683998825
+          ],
+          [
+            -74.0555763244629,
+            40.724559363593656
+          ],
+          [
+            -74.05551195144655,
+            40.72462441075683
+          ],
+          [
+            -74.05549049377443,
+            40.72465693431455
+          ],
+          [
+            -74.05546903610231,
+            40.72468945785642
+          ],
+          [
+            -74.05544757843019,
+            40.72472198138239
+          ],
+          [
+            -74.05542612075807,
+            40.72475450489245
+          ],
+          [
+            -74.05540466308595,
+            40.724770766641505
+          ],
+          [
+            -74.05540466308595,
+            40.724787028386615
+          ],
+          [
+            -74.05540466308595,
+            40.72480329012775
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717101359_5snafakni",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717101359_5snafakni",
+        "description": "",
+        "measurements": {
+          "length": 627.4930864647504,
+          "lengthKm": 0.6274930864647503,
+          "vertices": 55
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:52.916Z",
+        "updated": "2026-07-10T20:57:52.916Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05596256256105,
+            40.72449431636692
+          ],
+          [
+            -74.05598402023317,
+            40.724445530905136
+          ],
+          [
+            -74.05619859695436,
+            40.72412029357944
+          ],
+          [
+            -74.05628442764284,
+            40.72395767432058
+          ],
+          [
+            -74.05647754669191,
+            40.72355112443509
+          ],
+          [
+            -74.05654191970827,
+            40.723404765868395
+          ],
+          [
+            -74.05660629272462,
+            40.723290931205135
+          ],
+          [
+            -74.05667066574098,
+            40.72317709634715
+          ],
+          [
+            -74.0567994117737,
+            40.72288437724698
+          ],
+          [
+            -74.05684232711793,
+            40.72273801721413
+          ],
+          [
+            -74.05688524246217,
+            40.72264044368009
+          ],
+          [
+            -74.05694961547853,
+            40.72249408311082
+          ],
+          [
+            -74.05694961547853,
+            40.72242903386563
+          ],
+          [
+            -74.05699253082277,
+            40.72236398455685
+          ],
+          [
+            -74.05701398849489,
+            40.72229893518451
+          ],
+          [
+            -74.05705690383913,
+            40.72220136100681
+          ],
+          [
+            -74.05705690383913,
+            40.722168836249104
+          ],
+          [
+            -74.05709981918336,
+            40.722120049082775
+          ],
+          [
+            -74.05709981918336,
+            40.72210378668606
+          ],
+          [
+            -74.05709981918336,
+            40.72208752428535
+          ],
+          [
+            -74.05709981918336,
+            40.72207126188067
+          ],
+          [
+            -74.05709981918336,
+            40.72210378668606
+          ],
+          [
+            -74.05707836151124,
+            40.72218509862994
+          ],
+          [
+            -74.057035446167,
+            40.72229893518451
+          ],
+          [
+            -74.05699253082277,
+            40.72242903386563
+          ],
+          [
+            -74.05694961547853,
+            40.722526607709575
+          ],
+          [
+            -74.05690670013429,
+            40.7226241814105
+          ],
+          [
+            -74.05688524246217,
+            40.72268923046499
+          ],
+          [
+            -74.05677795410158,
+            40.72285185282303
+          ],
+          [
+            -74.05671358108522,
+            40.72299821260559
+          ],
+          [
+            -74.05662775039674,
+            40.72317709634715
+          ],
+          [
+            -74.05649900436403,
+            40.72342102794725
+          ],
+          [
+            -74.05643463134767,
+            40.72350233828195
+          ],
+          [
+            -74.05637025833131,
+            40.72361617258365
+          ],
+          [
+            -74.05617713928224,
+            40.72387636454214
+          ],
+          [
+            -74.05609130859376,
+            40.72399019820414
+          ],
+          [
+            -74.0560269355774,
+            40.72407150784349
+          ],
+          [
+            -74.05596256256105,
+            40.724136555483476
+          ],
+          [
+            -74.05589818954469,
+            40.72423412682422
+          ],
+          [
+            -74.05585527420045,
+            40.72426665057267
+          ],
+          [
+            -74.05581235885622,
+            40.72433169802195
+          ],
+          [
+            -74.05576944351198,
+            40.724364221722716
+          ],
+          [
+            -74.05574798583986,
+            40.72438048356716
+          ],
+          [
+            -74.05570507049562,
+            40.724429269076595
+          ],
+          [
+            -74.05564069747926,
+            40.72449431636692
+          ],
+          [
+            -74.05559778213502,
+            40.72452683998825
+          ],
+          [
+            -74.0555763244629,
+            40.724559363593656
+          ],
+          [
+            -74.05551195144655,
+            40.72462441075683
+          ],
+          [
+            -74.05549049377443,
+            40.72465693431455
+          ],
+          [
+            -74.05546903610231,
+            40.72468945785642
+          ],
+          [
+            -74.05544757843019,
+            40.72472198138239
+          ],
+          [
+            -74.05542612075807,
+            40.72475450489245
+          ],
+          [
+            -74.05540466308595,
+            40.724770766641505
+          ],
+          [
+            -74.05540466308595,
+            40.724787028386615
+          ],
+          [
+            -74.05540466308595,
+            40.72480329012775
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717101359_5snafakni",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717101359_5snafakni",
+        "description": "",
+        "measurements": {
+          "length": 627.4930864647504,
+          "lengthKm": 0.6274930864647503,
+          "vertices": 55
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:52.916Z",
+        "updated": "2026-07-10T20:57:52.916Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05589818954469,
+            40.72447805455031
+          ],
+          [
+            -74.05587673187257,
+            40.72447805455031
+          ],
+          [
+            -74.05585527420045,
+            40.72447805455031
+          ],
+          [
+            -74.05583381652833,
+            40.72447805455031
+          ],
+          [
+            -74.05581235885622,
+            40.72447805455031
+          ],
+          [
+            -74.0557909011841,
+            40.72447805455031
+          ],
+          [
+            -74.05576944351198,
+            40.72447805455031
+          ],
+          [
+            -74.05570507049562,
+            40.72447805455031
+          ],
+          [
+            -74.05566215515138,
+            40.72446179272971
+          ],
+          [
+            -74.05559778213502,
+            40.72446179272971
+          ],
+          [
+            -74.05553340911867,
+            40.72446179272971
+          ],
+          [
+            -74.05544757843019,
+            40.72446179272971
+          ],
+          [
+            -74.05542612075807,
+            40.72446179272971
+          ],
+          [
+            -74.05540466308595,
+            40.72446179272971
+          ],
+          [
+            -74.05538320541383,
+            40.72446179272971
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_41",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_41",
+        "description": "",
+        "measurements": {
+          "length": 43.824433290482595,
+          "lengthKm": 0.04382443329048259,
+          "vertices": 15
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:54.709Z",
+        "updated": "2026-07-10T20:57:54.709Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05589818954469,
+            40.72447805455031
+          ],
+          [
+            -74.05587673187257,
+            40.72447805455031
+          ],
+          [
+            -74.05585527420045,
+            40.72447805455031
+          ],
+          [
+            -74.05583381652833,
+            40.72447805455031
+          ],
+          [
+            -74.05581235885622,
+            40.72447805455031
+          ],
+          [
+            -74.0557909011841,
+            40.72447805455031
+          ],
+          [
+            -74.05576944351198,
+            40.72447805455031
+          ],
+          [
+            -74.05570507049562,
+            40.72447805455031
+          ],
+          [
+            -74.05566215515138,
+            40.72446179272971
+          ],
+          [
+            -74.05559778213502,
+            40.72446179272971
+          ],
+          [
+            -74.05553340911867,
+            40.72446179272971
+          ],
+          [
+            -74.05544757843019,
+            40.72446179272971
+          ],
+          [
+            -74.05542612075807,
+            40.72446179272971
+          ],
+          [
+            -74.05540466308595,
+            40.72446179272971
+          ],
+          [
+            -74.05538320541383,
+            40.72446179272971
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_42",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_42",
+        "description": "",
+        "measurements": {
+          "length": 43.824433290482595,
+          "lengthKm": 0.04382443329048259,
+          "vertices": 15
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:54.709Z",
+        "updated": "2026-07-10T20:57:54.709Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05514717102052,
+            40.7235673864782
+          ],
+          [
+            -74.05514717102052,
+            40.72361617258365
+          ],
+          [
+            -74.05516862869264,
+            40.72366495865335
+          ],
+          [
+            -74.05521154403688,
+            40.72376253068545
+          ],
+          [
+            -74.05531883239748,
+            40.72387636454214
+          ],
+          [
+            -74.05540466308595,
+            40.7240227220718
+          ],
+          [
+            -74.05555486679079,
+            40.72421786494403
+          ],
+          [
+            -74.05559778213502,
+            40.724282912440955
+          ],
+          [
+            -74.05564069747926,
+            40.72433169802195
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_43",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_43",
+        "description": "",
+        "measurements": {
+          "length": 95.67094079571945,
+          "lengthKm": 0.09567094079571944,
+          "vertices": 9
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:58.271Z",
+        "updated": "2026-07-10T20:57:58.271Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05514717102052,
+            40.7235673864782
+          ],
+          [
+            -74.05514717102052,
+            40.72361617258365
+          ],
+          [
+            -74.05516862869264,
+            40.72366495865335
+          ],
+          [
+            -74.05521154403688,
+            40.72376253068545
+          ],
+          [
+            -74.05531883239748,
+            40.72387636454214
+          ],
+          [
+            -74.05540466308595,
+            40.7240227220718
+          ],
+          [
+            -74.05555486679079,
+            40.72421786494403
+          ],
+          [
+            -74.05559778213502,
+            40.724282912440955
+          ],
+          [
+            -74.05564069747926,
+            40.72433169802195
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_44",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_44",
+        "description": "",
+        "measurements": {
+          "length": 95.67094079571945,
+          "lengthKm": 0.09567094079571944,
+          "vertices": 9
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:58.271Z",
+        "updated": "2026-07-10T20:57:58.271Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.056134223938,
+            40.724006460139954
+          ],
+          [
+            -74.056134223938,
+            40.72394141237283
+          ],
+          [
+            -74.056134223938,
+            40.72384384060296
+          ],
+          [
+            -74.056134223938,
+            40.723811316647875
+          ],
+          [
+            -74.056134223938,
+            40.72379505466438
+          ],
+          [
+            -74.05611276626588,
+            40.72377879267691
+          ],
+          [
+            -74.05609130859376,
+            40.72377879267691
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_45",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_45",
+        "description": "",
+        "measurements": {
+          "length": 27.872719460633768,
+          "lengthKm": 0.027872719460633768,
+          "vertices": 7
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:58.629Z",
+        "updated": "2026-07-10T20:57:58.629Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.056134223938,
+            40.724006460139954
+          ],
+          [
+            -74.056134223938,
+            40.72394141237283
+          ],
+          [
+            -74.056134223938,
+            40.72384384060296
+          ],
+          [
+            -74.056134223938,
+            40.723811316647875
+          ],
+          [
+            -74.056134223938,
+            40.72379505466438
+          ],
+          [
+            -74.05611276626588,
+            40.72377879267691
+          ],
+          [
+            -74.05609130859376,
+            40.72377879267691
+          ]
+        ]
+      },
+      "properties": {
+        "id": "export_1783717618720_46",
+        "annotationType": "freehand",
+        "name": "freehand export_1783717618720_46",
+        "description": "",
+        "measurements": {
+          "length": 27.872719460633768,
+          "lengthKm": 0.027872719460633768,
+          "vertices": 7
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:57:58.629Z",
+        "updated": "2026-07-10T20:57:58.629Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05636489391328,
+            40.72424225776283
+          ],
+          [
+            -74.05637562274934,
+            40.72424632323174
+          ],
+          [
+            -74.0563863515854,
+            40.72425038870045
+          ],
+          [
+            -74.05639171600343,
+            40.72425038870045
+          ],
+          [
+            -74.05639708042146,
+            40.72425038870045
+          ],
+          [
+            -74.05640244483949,
+            40.72424225776283
+          ],
+          [
+            -74.05641317367555,
+            40.72421786494403
+          ],
+          [
+            -74.05641317367555,
+            40.724169079279605
+          ],
+          [
+            -74.05640780925752,
+            40.72414468643399
+          ],
+          [
+            -74.05639171600343,
+            40.724116228102794
+          ],
+          [
+            -74.0563327074051,
+            40.724047114962126
+          ],
+          [
+            -74.05630052089693,
+            40.72401052562329
+          ],
+          [
+            -74.05627369880678,
+            40.72398613271956
+          ],
+          [
+            -74.05622005462648,
+            40.72395360883401
+          ],
+          [
+            -74.05618250370027,
+            40.72393734688529
+          ],
+          [
+            -74.05614495277406,
+            40.723921084932584
+          ],
+          [
+            -74.05610203742982,
+            40.723912953954745
+          ],
+          [
+            -74.05603766441347,
+            40.723896691996075
+          ],
+          [
+            -74.05601620674135,
+            40.723896691996075
+          ],
+          [
+            -74.05598402023317,
+            40.72389262650577
+          ],
+          [
+            -74.05593037605287,
+            40.72388856101523
+          ],
+          [
+            -74.05590355396272,
+            40.72389262650577
+          ],
+          [
+            -74.05587136745454,
+            40.723896691996075
+          ],
+          [
+            -74.05584990978242,
+            40.723900757486106
+          ],
+          [
+            -74.05579626560213,
+            40.72392515042114
+          ],
+          [
+            -74.05577480793,
+            40.72394954334721
+          ],
+          [
+            -74.05575335025789,
+            40.72397800174965
+          ],
+          [
+            -74.05572116374971,
+            40.7240186565892
+          ],
+          [
+            -74.05571043491365,
+            40.72403898399968
+          ],
+          [
+            -74.05569970607759,
+            40.724075573322864
+          ],
+          [
+            -74.0556836128235,
+            40.72414468643399
+          ],
+          [
+            -74.05567824840547,
+            40.724169079279605
+          ],
+          [
+            -74.05567824840547,
+            40.72418940664413
+          ],
+          [
+            -74.05567824840547,
+            40.724221930414465
+          ],
+          [
+            -74.05567824840547,
+            40.72423819229364
+          ],
+          [
+            -74.05567824840547,
+            40.72425038870045
+          ],
+          [
+            -74.05568897724153,
+            40.724282912440955
+          ],
+          [
+            -74.05569434165956,
+            40.72429917430525
+          ],
+          [
+            -74.05569970607759,
+            40.7243154361656
+          ],
+          [
+            -74.05571579933168,
+            40.724343894411575
+          ],
+          [
+            -74.05572652816774,
+            40.724360156260985
+          ],
+          [
+            -74.05574262142183,
+            40.72437641810642
+          ],
+          [
+            -74.05576944351198,
+            40.72439267994786
+          ],
+          [
+            -74.05583381652833,
+            40.72442113816084
+          ],
+          [
+            -74.05587136745454,
+            40.72443333453411
+          ],
+          [
+            -74.05592501163484,
+            40.724445530905136
+          ],
+          [
+            -74.05602157115938,
+            40.72445772727396
+          ],
+          [
+            -74.05605375766756,
+            40.72445772727396
+          ],
+          [
+            -74.05608594417573,
+            40.72445772727396
+          ],
+          [
+            -74.05615568161012,
+            40.72445772727396
+          ],
+          [
+            -74.0561878681183,
+            40.72444959636166
+          ],
+          [
+            -74.05623078346254,
+            40.724437399991366
+          ],
+          [
+            -74.05630588531496,
+            40.72439267994786
+          ],
+          [
+            -74.0563327074051,
+            40.724372352645425
+          ],
+          [
+            -74.05635416507722,
+            40.72435609079902
+          ],
+          [
+            -74.05637562274934,
+            40.72433982894862
+          ],
+          [
+            -74.05639171600343,
+            40.72431950163005
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717098129_cqm5pezdl",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717098129_cqm5pezdl",
+        "description": "",
+        "measurements": {
+          "length": 195.96194988299064,
+          "lengthKm": 0.19596194988299065,
+          "vertices": 57
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:58:09.636Z",
+        "updated": "2026-07-10T20:58:09.636Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05636489391328,
+            40.72424225776283
+          ],
+          [
+            -74.05637562274934,
+            40.72424632323174
+          ],
+          [
+            -74.0563863515854,
+            40.72425038870045
+          ],
+          [
+            -74.05639171600343,
+            40.72425038870045
+          ],
+          [
+            -74.05639708042146,
+            40.72425038870045
+          ],
+          [
+            -74.05640244483949,
+            40.72424225776283
+          ],
+          [
+            -74.05641317367555,
+            40.72421786494403
+          ],
+          [
+            -74.05641317367555,
+            40.724169079279605
+          ],
+          [
+            -74.05640780925752,
+            40.72414468643399
+          ],
+          [
+            -74.05639171600343,
+            40.724116228102794
+          ],
+          [
+            -74.0563327074051,
+            40.724047114962126
+          ],
+          [
+            -74.05630052089693,
+            40.72401052562329
+          ],
+          [
+            -74.05627369880678,
+            40.72398613271956
+          ],
+          [
+            -74.05622005462648,
+            40.72395360883401
+          ],
+          [
+            -74.05618250370027,
+            40.72393734688529
+          ],
+          [
+            -74.05614495277406,
+            40.723921084932584
+          ],
+          [
+            -74.05610203742982,
+            40.723912953954745
+          ],
+          [
+            -74.05603766441347,
+            40.723896691996075
+          ],
+          [
+            -74.05601620674135,
+            40.723896691996075
+          ],
+          [
+            -74.05598402023317,
+            40.72389262650577
+          ],
+          [
+            -74.05593037605287,
+            40.72388856101523
+          ],
+          [
+            -74.05590355396272,
+            40.72389262650577
+          ],
+          [
+            -74.05587136745454,
+            40.723896691996075
+          ],
+          [
+            -74.05584990978242,
+            40.723900757486106
+          ],
+          [
+            -74.05579626560213,
+            40.72392515042114
+          ],
+          [
+            -74.05577480793,
+            40.72394954334721
+          ],
+          [
+            -74.05575335025789,
+            40.72397800174965
+          ],
+          [
+            -74.05572116374971,
+            40.7240186565892
+          ],
+          [
+            -74.05571043491365,
+            40.72403898399968
+          ],
+          [
+            -74.05569970607759,
+            40.724075573322864
+          ],
+          [
+            -74.0556836128235,
+            40.72414468643399
+          ],
+          [
+            -74.05567824840547,
+            40.724169079279605
+          ],
+          [
+            -74.05567824840547,
+            40.72418940664413
+          ],
+          [
+            -74.05567824840547,
+            40.724221930414465
+          ],
+          [
+            -74.05567824840547,
+            40.72423819229364
+          ],
+          [
+            -74.05567824840547,
+            40.72425038870045
+          ],
+          [
+            -74.05568897724153,
+            40.724282912440955
+          ],
+          [
+            -74.05569434165956,
+            40.72429917430525
+          ],
+          [
+            -74.05569970607759,
+            40.7243154361656
+          ],
+          [
+            -74.05571579933168,
+            40.724343894411575
+          ],
+          [
+            -74.05572652816774,
+            40.724360156260985
+          ],
+          [
+            -74.05574262142183,
+            40.72437641810642
+          ],
+          [
+            -74.05576944351198,
+            40.72439267994786
+          ],
+          [
+            -74.05583381652833,
+            40.72442113816084
+          ],
+          [
+            -74.05587136745454,
+            40.72443333453411
+          ],
+          [
+            -74.05592501163484,
+            40.724445530905136
+          ],
+          [
+            -74.05602157115938,
+            40.72445772727396
+          ],
+          [
+            -74.05605375766756,
+            40.72445772727396
+          ],
+          [
+            -74.05608594417573,
+            40.72445772727396
+          ],
+          [
+            -74.05615568161012,
+            40.72445772727396
+          ],
+          [
+            -74.0561878681183,
+            40.72444959636166
+          ],
+          [
+            -74.05623078346254,
+            40.724437399991366
+          ],
+          [
+            -74.05630588531496,
+            40.72439267994786
+          ],
+          [
+            -74.0563327074051,
+            40.724372352645425
+          ],
+          [
+            -74.05635416507722,
+            40.72435609079902
+          ],
+          [
+            -74.05637562274934,
+            40.72433982894862
+          ],
+          [
+            -74.05639171600343,
+            40.72431950163005
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717098129_cqm5pezdl",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717098129_cqm5pezdl",
+        "description": "",
+        "measurements": {
+          "length": 195.96194988299064,
+          "lengthKm": 0.19596194988299065,
+          "vertices": 57
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 3,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:58:09.636Z",
+        "updated": "2026-07-10T20:58:09.636Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05246496200563,
+            40.727144943015155
+          ],
+          [
+            -74.05248641967775,
+            40.727063635104216
+          ],
+          [
+            -74.05257225036623,
+            40.72675466413668
+          ],
+          [
+            -74.05259370803834,
+            40.72665709405945
+          ],
+          [
+            -74.0526580810547,
+            40.726494476946215
+          ],
+          [
+            -74.0526580810547,
+            40.7264131682406
+          ],
+          [
+            -74.05267953872682,
+            40.726348121204566
+          ],
+          [
+            -74.05270099639894,
+            40.7262180269418
+          ],
+          [
+            -74.05270099639894,
+            40.7261692415277
+          ],
+          [
+            -74.05270099639894,
+            40.726136717898456
+          ],
+          [
+            -74.05272245407106,
+            40.72610419425328
+          ],
+          [
+            -74.05272245407106,
+            40.72607167059223
+          ],
+          [
+            -74.05272245407106,
+            40.726055408755755
+          ],
+          [
+            -74.05272245407106,
+            40.726039146915305
+          ],
+          [
+            -74.05274391174318,
+            40.726039146915305
+          ],
+          [
+            -74.0527653694153,
+            40.726039146915305
+          ],
+          [
+            -74.0527653694153,
+            40.72602288507086
+          ],
+          [
+            -74.05278682708742,
+            40.72602288507086
+          ],
+          [
+            -74.05289411544801,
+            40.72590905204859
+          ],
+          [
+            -74.05295848846437,
+            40.72584400451988
+          ],
+          [
+            -74.05300140380861,
+            40.72579521883162
+          ],
+          [
+            -74.05304431915285,
+            40.72574643310761
+          ],
+          [
+            -74.05313014984132,
+            40.7256651234881
+          ],
+          [
+            -74.05315160751344,
+            40.725632599612474
+          ],
+          [
+            -74.05319452285768,
+            40.725600075720976
+          ],
+          [
+            -74.05325889587404,
+            40.725502503951105
+          ],
+          [
+            -74.05328035354616,
+            40.72546997999602
+          ],
+          [
+            -74.05330181121828,
+            40.72542119403359
+          ],
+          [
+            -74.0533232688904,
+            40.72537240803544
+          ],
+          [
+            -74.05334472656251,
+            40.725356146028105
+          ],
+          [
+            -74.05336618423463,
+            40.7253398840168
+          ],
+          [
+            -74.05336618423463,
+            40.7253236220015
+          ],
+          [
+            -74.05336618423463,
+            40.725307359982224
+          ],
+          [
+            -74.05336618423463,
+            40.72529109795901
+          ],
+          [
+            -74.05345201492311,
+            40.7253236220015
+          ],
+          [
+            -74.05358076095582,
+            40.72540493203819
+          ],
+          [
+            -74.0537738800049,
+            40.72558381376928
+          ],
+          [
+            -74.05394554138185,
+            40.725778956927584
+          ],
+          [
+            -74.05409574508668,
+            40.72592531392082
+          ],
+          [
+            -74.05443906784059,
+            40.726348121204566
+          ],
+          [
+            -74.05461072921754,
+            40.7265432621219
+          ],
+          [
+            -74.05476093292238,
+            40.726673355748936
+          ],
+          [
+            -74.05495405197145,
+            40.726819710775345
+          ],
+          [
+            -74.05503988265993,
+            40.726901018984314
+          ],
+          [
+            -74.05510425567628,
+            40.72696606547995
+          ],
+          [
+            -74.05519008636476,
+            40.72701485030997
+          ],
+          [
+            -74.05529737472536,
+            40.72712868144091
+          ],
+          [
+            -74.0553402900696,
+            40.727161204585435
+          ],
+          [
+            -74.05540466308595,
+            40.72720998927241
+          ],
+          [
+            -74.05551195144655,
+            40.72730755853905
+          ],
+          [
+            -74.05553340911867,
+            40.72735634311875
+          ],
+          [
+            -74.05555486679079,
+            40.72738886615199
+          ],
+          [
+            -74.05559778213502,
+            40.727437650672094
+          ],
+          [
+            -74.05559778213502,
+            40.72745391217082
+          ],
+          [
+            -74.05559778213502,
+            40.72747017366561
+          ],
+          [
+            -74.05559778213502,
+            40.72748643515643
+          ],
+          [
+            -74.05555486679079,
+            40.7275514810799
+          ],
+          [
+            -74.05546903610231,
+            40.727616526939784
+          ],
+          [
+            -74.05514717102052,
+            40.727730357041644
+          ],
+          [
+            -74.05497550964357,
+            40.72776287989211
+          ],
+          [
+            -74.05482530593873,
+            40.72777914131141
+          ],
+          [
+            -74.0546751022339,
+            40.727795402726706
+          ],
+          [
+            -74.05435323715211,
+            40.72782792554539
+          ],
+          [
+            -74.05420303344728,
+            40.72782792554539
+          ],
+          [
+            -74.05405282974245,
+            40.72784418694878
+          ],
+          [
+            -74.05383825302125,
+            40.72784418694878
+          ],
+          [
+            -74.05375242233278,
+            40.72784418694878
+          ],
+          [
+            -74.05364513397218,
+            40.72784418694878
+          ],
+          [
+            -74.05343055725099,
+            40.72784418694878
+          ],
+          [
+            -74.05313014984132,
+            40.72782792554539
+          ],
+          [
+            -74.05302286148073,
+            40.72782792554539
+          ],
+          [
+            -74.05289411544801,
+            40.72781166413803
+          ],
+          [
+            -74.05280828475954,
+            40.72781166413803
+          ],
+          [
+            -74.05274391174318,
+            40.727795402726706
+          ],
+          [
+            -74.05267953872682,
+            40.727795402726706
+          ],
+          [
+            -74.0525507926941,
+            40.72777914131141
+          ],
+          [
+            -74.05250787734987,
+            40.72776287989211
+          ],
+          [
+            -74.05246496200563,
+            40.72776287989211
+          ],
+          [
+            -74.05237913131715,
+            40.72774661846885
+          ],
+          [
+            -74.05235767364503,
+            40.727730357041644
+          ],
+          [
+            -74.0523147583008,
+            40.727730357041644
+          ],
+          [
+            -74.05225038528444,
+            40.727714095610445
+          ],
+          [
+            -74.05222892761232,
+            40.727714095610445
+          ],
+          [
+            -74.0522074699402,
+            40.72769783417525
+          ],
+          [
+            -74.05218601226808,
+            40.72769783417525
+          ],
+          [
+            -74.05212163925172,
+            40.72768157273611
+          ],
+          [
+            -74.05212163925172,
+            40.72766531129298
+          ],
+          [
+            -74.0521001815796,
+            40.72766531129298
+          ],
+          [
+            -74.0521001815796,
+            40.7276490498459
+          ],
+          [
+            -74.05207872390748,
+            40.72763278839483
+          ],
+          [
+            -74.05207872390748,
+            40.727616526939784
+          ],
+          [
+            -74.0521001815796,
+            40.727616526939784
+          ],
+          [
+            -74.05212163925172,
+            40.727600265480774
+          ],
+          [
+            -74.05214309692384,
+            40.72758400401777
+          ],
+          [
+            -74.05216455459596,
+            40.72756774255082
+          ],
+          [
+            -74.05218601226808,
+            40.72753521960496
+          ],
+          [
+            -74.0522074699402,
+            40.727518958126105
+          ],
+          [
+            -74.05225038528444,
+            40.72747017366561
+          ],
+          [
+            -74.05227184295656,
+            40.727437650672094
+          ],
+          [
+            -74.05229330062868,
+            40.72740512766265
+          ],
+          [
+            -74.0523147583008,
+            40.72737260463735
+          ],
+          [
+            -74.0523147583008,
+            40.72735634311875
+          ],
+          [
+            -74.05233621597291,
+            40.727340081596154
+          ],
+          [
+            -74.05233621597291,
+            40.72732382006959
+          ],
+          [
+            -74.05233621597291,
+            40.72730755853905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717102720_mql6l5rgm",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717102720_mql6l5rgm",
+        "description": "",
+        "measurements": {
+          "length": 901.4577636573766,
+          "lengthKm": 0.9014577636573766,
+          "vertices": 105
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:58:22.718Z",
+        "updated": "2026-07-10T20:58:33.385Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.05246496200563,
+            40.727144943015155
+          ],
+          [
+            -74.05248641967775,
+            40.727063635104216
+          ],
+          [
+            -74.05257225036623,
+            40.72675466413668
+          ],
+          [
+            -74.05259370803834,
+            40.72665709405945
+          ],
+          [
+            -74.0526580810547,
+            40.726494476946215
+          ],
+          [
+            -74.0526580810547,
+            40.7264131682406
+          ],
+          [
+            -74.05267953872682,
+            40.726348121204566
+          ],
+          [
+            -74.05270099639894,
+            40.7262180269418
+          ],
+          [
+            -74.05270099639894,
+            40.7261692415277
+          ],
+          [
+            -74.05270099639894,
+            40.726136717898456
+          ],
+          [
+            -74.05272245407106,
+            40.72610419425328
+          ],
+          [
+            -74.05272245407106,
+            40.72607167059223
+          ],
+          [
+            -74.05272245407106,
+            40.726055408755755
+          ],
+          [
+            -74.05272245407106,
+            40.726039146915305
+          ],
+          [
+            -74.05274391174318,
+            40.726039146915305
+          ],
+          [
+            -74.0527653694153,
+            40.726039146915305
+          ],
+          [
+            -74.0527653694153,
+            40.72602288507086
+          ],
+          [
+            -74.05278682708742,
+            40.72602288507086
+          ],
+          [
+            -74.05289411544801,
+            40.72590905204859
+          ],
+          [
+            -74.05295848846437,
+            40.72584400451988
+          ],
+          [
+            -74.05300140380861,
+            40.72579521883162
+          ],
+          [
+            -74.05304431915285,
+            40.72574643310761
+          ],
+          [
+            -74.05313014984132,
+            40.7256651234881
+          ],
+          [
+            -74.05315160751344,
+            40.725632599612474
+          ],
+          [
+            -74.05319452285768,
+            40.725600075720976
+          ],
+          [
+            -74.05325889587404,
+            40.725502503951105
+          ],
+          [
+            -74.05328035354616,
+            40.72546997999602
+          ],
+          [
+            -74.05330181121828,
+            40.72542119403359
+          ],
+          [
+            -74.0533232688904,
+            40.72537240803544
+          ],
+          [
+            -74.05334472656251,
+            40.725356146028105
+          ],
+          [
+            -74.05336618423463,
+            40.7253398840168
+          ],
+          [
+            -74.05336618423463,
+            40.7253236220015
+          ],
+          [
+            -74.05336618423463,
+            40.725307359982224
+          ],
+          [
+            -74.05336618423463,
+            40.72529109795901
+          ],
+          [
+            -74.05345201492311,
+            40.7253236220015
+          ],
+          [
+            -74.05358076095582,
+            40.72540493203819
+          ],
+          [
+            -74.0537738800049,
+            40.72558381376928
+          ],
+          [
+            -74.05394554138185,
+            40.725778956927584
+          ],
+          [
+            -74.05409574508668,
+            40.72592531392082
+          ],
+          [
+            -74.05443906784059,
+            40.726348121204566
+          ],
+          [
+            -74.05461072921754,
+            40.7265432621219
+          ],
+          [
+            -74.05476093292238,
+            40.726673355748936
+          ],
+          [
+            -74.05495405197145,
+            40.726819710775345
+          ],
+          [
+            -74.05503988265993,
+            40.726901018984314
+          ],
+          [
+            -74.05510425567628,
+            40.72696606547995
+          ],
+          [
+            -74.05519008636476,
+            40.72701485030997
+          ],
+          [
+            -74.05529737472536,
+            40.72712868144091
+          ],
+          [
+            -74.0553402900696,
+            40.727161204585435
+          ],
+          [
+            -74.05540466308595,
+            40.72720998927241
+          ],
+          [
+            -74.05551195144655,
+            40.72730755853905
+          ],
+          [
+            -74.05553340911867,
+            40.72735634311875
+          ],
+          [
+            -74.05555486679079,
+            40.72738886615199
+          ],
+          [
+            -74.05559778213502,
+            40.727437650672094
+          ],
+          [
+            -74.05559778213502,
+            40.72745391217082
+          ],
+          [
+            -74.05559778213502,
+            40.72747017366561
+          ],
+          [
+            -74.05559778213502,
+            40.72748643515643
+          ],
+          [
+            -74.05555486679079,
+            40.7275514810799
+          ],
+          [
+            -74.05546903610231,
+            40.727616526939784
+          ],
+          [
+            -74.05514717102052,
+            40.727730357041644
+          ],
+          [
+            -74.05497550964357,
+            40.72776287989211
+          ],
+          [
+            -74.05482530593873,
+            40.72777914131141
+          ],
+          [
+            -74.0546751022339,
+            40.727795402726706
+          ],
+          [
+            -74.05435323715211,
+            40.72782792554539
+          ],
+          [
+            -74.05420303344728,
+            40.72782792554539
+          ],
+          [
+            -74.05405282974245,
+            40.72784418694878
+          ],
+          [
+            -74.05383825302125,
+            40.72784418694878
+          ],
+          [
+            -74.05375242233278,
+            40.72784418694878
+          ],
+          [
+            -74.05364513397218,
+            40.72784418694878
+          ],
+          [
+            -74.05343055725099,
+            40.72784418694878
+          ],
+          [
+            -74.05313014984132,
+            40.72782792554539
+          ],
+          [
+            -74.05302286148073,
+            40.72782792554539
+          ],
+          [
+            -74.05289411544801,
+            40.72781166413803
+          ],
+          [
+            -74.05280828475954,
+            40.72781166413803
+          ],
+          [
+            -74.05274391174318,
+            40.727795402726706
+          ],
+          [
+            -74.05267953872682,
+            40.727795402726706
+          ],
+          [
+            -74.0525507926941,
+            40.72777914131141
+          ],
+          [
+            -74.05250787734987,
+            40.72776287989211
+          ],
+          [
+            -74.05246496200563,
+            40.72776287989211
+          ],
+          [
+            -74.05237913131715,
+            40.72774661846885
+          ],
+          [
+            -74.05235767364503,
+            40.727730357041644
+          ],
+          [
+            -74.0523147583008,
+            40.727730357041644
+          ],
+          [
+            -74.05225038528444,
+            40.727714095610445
+          ],
+          [
+            -74.05222892761232,
+            40.727714095610445
+          ],
+          [
+            -74.0522074699402,
+            40.72769783417525
+          ],
+          [
+            -74.05218601226808,
+            40.72769783417525
+          ],
+          [
+            -74.05212163925172,
+            40.72768157273611
+          ],
+          [
+            -74.05212163925172,
+            40.72766531129298
+          ],
+          [
+            -74.0521001815796,
+            40.72766531129298
+          ],
+          [
+            -74.0521001815796,
+            40.7276490498459
+          ],
+          [
+            -74.05207872390748,
+            40.72763278839483
+          ],
+          [
+            -74.05207872390748,
+            40.727616526939784
+          ],
+          [
+            -74.0521001815796,
+            40.727616526939784
+          ],
+          [
+            -74.05212163925172,
+            40.727600265480774
+          ],
+          [
+            -74.05214309692384,
+            40.72758400401777
+          ],
+          [
+            -74.05216455459596,
+            40.72756774255082
+          ],
+          [
+            -74.05218601226808,
+            40.72753521960496
+          ],
+          [
+            -74.0522074699402,
+            40.727518958126105
+          ],
+          [
+            -74.05225038528444,
+            40.72747017366561
+          ],
+          [
+            -74.05227184295656,
+            40.727437650672094
+          ],
+          [
+            -74.05229330062868,
+            40.72740512766265
+          ],
+          [
+            -74.0523147583008,
+            40.72737260463735
+          ],
+          [
+            -74.0523147583008,
+            40.72735634311875
+          ],
+          [
+            -74.05233621597291,
+            40.727340081596154
+          ],
+          [
+            -74.05233621597291,
+            40.72732382006959
+          ],
+          [
+            -74.05233621597291,
+            40.72730755853905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717102720_mql6l5rgm",
+        "annotationType": "freehand",
+        "name": "freehand anno_1783717102720_mql6l5rgm",
+        "description": "",
+        "measurements": {
+          "length": 901.4577636573766,
+          "lengthKm": 0.9014577636573766,
+          "vertices": 105
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": null,
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:58:22.718Z",
+        "updated": "2026-07-10T20:58:22.718Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#3388ff",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0567457675934,
+              40.72723437537611
+            ],
+            [
+              -74.05471801757814,
+              40.72851086801572
+            ],
+            [
+              -74.05510425567628,
+              40.730153198323606
+            ],
+            [
+              -74.05338764190675,
+              40.72953529662735
+            ],
+            [
+              -74.05304431915285,
+              40.73151906592361
+            ],
+            [
+              -74.0515422821045,
+              40.73093369752813
+            ],
+            [
+              -74.05261516571046,
+              40.7286572159258
+            ],
+            [
+              -74.05313014984132,
+              40.726803451950666
+            ],
+            [
+              -74.05381679534914,
+              40.72481954207442
+            ],
+            [
+              -74.05437469482423,
+              40.72407149512864
+            ],
+            [
+              -74.0567457675934,
+              40.72723437537611
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717159955_ivfmqfbrw",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717159955_ivfmqfbrw",
+        "description": "",
+        "measurements": {
+          "area": 144340.93380688815,
+          "areaKm": 0.14434093380688814,
+          "perimeter": 2140.0988352392355,
+          "vertices": 10
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:59:19.954Z",
+        "updated": "2026-07-10T20:59:36.643Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0567457675934,
+              40.72723437537611
+            ],
+            [
+              -74.05471801757814,
+              40.72851086801572
+            ],
+            [
+              -74.05510425567628,
+              40.730153198323606
+            ],
+            [
+              -74.05338764190675,
+              40.72953529662735
+            ],
+            [
+              -74.05304431915285,
+              40.73151906592361
+            ],
+            [
+              -74.0515422821045,
+              40.73093369752813
+            ],
+            [
+              -74.05261516571046,
+              40.7286572159258
+            ],
+            [
+              -74.05313014984132,
+              40.726803451950666
+            ],
+            [
+              -74.05381679534914,
+              40.72481954207442
+            ],
+            [
+              -74.05437469482423,
+              40.72407149512864
+            ],
+            [
+              -74.0567457675934,
+              40.72723437537611
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717159955_ivfmqfbrw",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717159955_ivfmqfbrw",
+        "description": "",
+        "measurements": {
+          "area": 144340.93380688815,
+          "areaKm": 0.14434093380688814,
+          "perimeter": 2140.0988352392355,
+          "vertices": 10
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:59:19.954Z",
+        "updated": "2026-07-10T20:59:19.954Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06100511550905,
+              40.73055969645928
+            ],
+            [
+              -74.0607261657715,
+              40.730933682874046
+            ],
+            [
+              -74.05973911285402,
+              40.73046213444015
+            ],
+            [
+              -74.05939579010011,
+              40.73039709301462
+            ],
+            [
+              -74.05879497528078,
+              40.72976293578379
+            ],
+            [
+              -74.0587091445923,
+              40.728901122680256
+            ],
+            [
+              -74.05873060226442,
+              40.72880355822938
+            ],
+            [
+              -74.0591597557068,
+              40.728738515182656
+            ],
+            [
+              -74.06100511550905,
+              40.73055969645928
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717189071_qgcnp8bsc",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717189071_qgcnp8bsc",
+        "description": "",
+        "measurements": {
+          "area": 20987.752178149043,
+          "areaKm": 0.020987752178149043,
+          "perimeter": 662.0111929796468,
+          "vertices": 8
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:59:49.069Z",
+        "updated": "2026-07-10T21:00:09.567Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.06100511550905,
+              40.73055969645928
+            ],
+            [
+              -74.0607261657715,
+              40.730933682874046
+            ],
+            [
+              -74.05973911285402,
+              40.73046213444015
+            ],
+            [
+              -74.05939579010011,
+              40.73039709301462
+            ],
+            [
+              -74.05879497528078,
+              40.72976293578379
+            ],
+            [
+              -74.0587091445923,
+              40.728901122680256
+            ],
+            [
+              -74.05873060226442,
+              40.72880355822938
+            ],
+            [
+              -74.0591597557068,
+              40.728738515182656
+            ],
+            [
+              -74.06100511550905,
+              40.73055969645928
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717189071_qgcnp8bsc",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717189071_qgcnp8bsc",
+        "description": "",
+        "measurements": {
+          "area": 20987.752178149043,
+          "areaKm": 0.020987752178149043,
+          "perimeter": 662.0111929796468,
+          "vertices": 8
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T20:59:49.069Z",
+        "updated": "2026-07-10T20:59:49.069Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.11488533020021,
+              40.76013060413279
+            ],
+            [
+              -74.09909248352052,
+              40.77716180818218
+            ],
+            [
+              -74.0954875946045,
+              40.7748868999429
+            ],
+            [
+              -74.09651756286623,
+              40.77235191042978
+            ],
+            [
+              -74.09686088562013,
+              40.770921873676855
+            ],
+            [
+              -74.0977191925049,
+              40.76897177395985
+            ],
+            [
+              -74.09694671630861,
+              40.76643655876973
+            ],
+            [
+              -74.09437179565431,
+              40.76442131872864
+            ],
+            [
+              -74.0922260284424,
+              40.76299111130575
+            ],
+            [
+              -74.0922260284424,
+              40.762210985194365
+            ],
+            [
+              -74.09188270568849,
+              40.75863529002695
+            ],
+            [
+              -74.09686088562013,
+              40.759545485227676
+            ],
+            [
+              -74.10115242004396,
+              40.760715717887464
+            ],
+            [
+              -74.1046714782715,
+              40.760325642623286
+            ],
+            [
+              -74.11085128784181,
+              40.75870030438316
+            ],
+            [
+              -74.11256790161134,
+              40.75863529002695
+            ],
+            [
+              -74.11334037780763,
+              40.75863529002695
+            ],
+            [
+              -74.11488533020021,
+              40.76013060413279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717259295_gjt35qmoj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717259295_gjt35qmoj",
+        "description": "",
+        "measurements": {
+          "area": 1926069.0721836293,
+          "areaKm": 1.9260690721836293,
+          "perimeter": 6808.635683214924,
+          "vertices": 17
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:00:59.293Z",
+        "updated": "2026-07-10T21:01:10.871Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.11488533020021,
+              40.76013060413279
+            ],
+            [
+              -74.09909248352052,
+              40.77716180818218
+            ],
+            [
+              -74.0954875946045,
+              40.7748868999429
+            ],
+            [
+              -74.09651756286623,
+              40.77235191042978
+            ],
+            [
+              -74.09686088562013,
+              40.770921873676855
+            ],
+            [
+              -74.0977191925049,
+              40.76897177395985
+            ],
+            [
+              -74.09694671630861,
+              40.76643655876973
+            ],
+            [
+              -74.09437179565431,
+              40.76442131872864
+            ],
+            [
+              -74.0922260284424,
+              40.76299111130575
+            ],
+            [
+              -74.0922260284424,
+              40.762210985194365
+            ],
+            [
+              -74.09188270568849,
+              40.75863529002695
+            ],
+            [
+              -74.09686088562013,
+              40.759545485227676
+            ],
+            [
+              -74.10115242004396,
+              40.760715717887464
+            ],
+            [
+              -74.1046714782715,
+              40.760325642623286
+            ],
+            [
+              -74.11085128784181,
+              40.75870030438316
+            ],
+            [
+              -74.11256790161134,
+              40.75863529002695
+            ],
+            [
+              -74.11334037780763,
+              40.75863529002695
+            ],
+            [
+              -74.11488533020021,
+              40.76013060413279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717259295_gjt35qmoj",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717259295_gjt35qmoj",
+        "description": "",
+        "measurements": {
+          "area": 1926069.0721836293,
+          "areaKm": 1.9260690721836293,
+          "perimeter": 6808.635683214924,
+          "vertices": 17
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:00:59.293Z",
+        "updated": "2026-07-10T21:00:59.293Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1171169281006,
+              40.763121171621314
+            ],
+            [
+              -74.11385536193849,
+              40.76273111352536
+            ],
+            [
+              -74.09505844116212,
+              40.78470081841747
+            ],
+            [
+              -74.09934997558595,
+              40.78892492877296
+            ],
+            [
+              -74.10415649414064,
+              40.79301881008675
+            ],
+            [
+              -74.11222457885744,
+              40.79535805750898
+            ],
+            [
+              -74.11788940429689,
+              40.793928527211534
+            ],
+            [
+              -74.12183761596681,
+              40.78911988122579
+            ],
+            [
+              -74.1240692138672,
+              40.782231214064105
+            ],
+            [
+              -74.1240692138672,
+              40.77547182732
+            ],
+            [
+              -74.12475585937501,
+              40.77365187491082
+            ],
+            [
+              -74.12578582763673,
+              40.77144186567577
+            ],
+            [
+              -74.12595748901369,
+              40.76936178983361
+            ],
+            [
+              -74.12544250488283,
+              40.76832172749444
+            ],
+            [
+              -74.1171169281006,
+              40.763121171621314
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717304146_stmop59l3",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717304146_stmop59l3",
+        "description": "",
+        "measurements": {
+          "area": 5845456.079785686,
+          "areaKm": 5.845456079785686,
+          "perimeter": 9525.649999329846,
+          "vertices": 14
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:01:44.144Z",
+        "updated": "2026-07-10T21:01:53.003Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1171169281006,
+              40.763121171621314
+            ],
+            [
+              -74.11385536193849,
+              40.76273111352536
+            ],
+            [
+              -74.09505844116212,
+              40.78470081841747
+            ],
+            [
+              -74.09934997558595,
+              40.78892492877296
+            ],
+            [
+              -74.10415649414064,
+              40.79301881008675
+            ],
+            [
+              -74.11222457885744,
+              40.79535805750898
+            ],
+            [
+              -74.11788940429689,
+              40.793928527211534
+            ],
+            [
+              -74.12183761596681,
+              40.78911988122579
+            ],
+            [
+              -74.1240692138672,
+              40.782231214064105
+            ],
+            [
+              -74.1240692138672,
+              40.77547182732
+            ],
+            [
+              -74.12475585937501,
+              40.77365187491082
+            ],
+            [
+              -74.12578582763673,
+              40.77144186567577
+            ],
+            [
+              -74.12595748901369,
+              40.76936178983361
+            ],
+            [
+              -74.12544250488283,
+              40.76832172749444
+            ],
+            [
+              -74.1171169281006,
+              40.763121171621314
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717304146_stmop59l3",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717304146_stmop59l3",
+        "description": "",
+        "measurements": {
+          "area": 5845456.079785686,
+          "areaKm": 5.845456079785686,
+          "perimeter": 9525.649999329846,
+          "vertices": 14
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:01:44.144Z",
+        "updated": "2026-07-10T21:01:44.144Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.12621498107912,
+              40.76409630986664
+            ],
+            [
+              -74.12436962127687,
+              40.763576239018356
+            ],
+            [
+              -74.12291049957277,
+              40.76354373445522
+            ],
+            [
+              -74.12136554718019,
+              40.76338121140108
+            ],
+            [
+              -74.11904811859132,
+              40.76289363985415
+            ],
+            [
+              -74.11797523498537,
+              40.76208101266097
+            ],
+            [
+              -74.11780357360841,
+              40.758992938716844
+            ],
+            [
+              -74.11853313446046,
+              40.75814775663242
+            ],
+            [
+              -74.12029266357423,
+              40.757205040861024
+            ],
+            [
+              -74.12411212921144,
+              40.75590472130863
+            ],
+            [
+              -74.13093566894533,
+              40.75392168502351
+            ],
+            [
+              -74.13093566894533,
+              40.755059499960744
+            ],
+            [
+              -74.13016319274904,
+              40.757627639239345
+            ],
+            [
+              -74.13110733032228,
+              40.75866786995609
+            ],
+            [
+              -74.13183689117433,
+              40.759740590833964
+            ],
+            [
+              -74.13299560546876,
+              40.75915547250112
+            ],
+            [
+              -74.13462638854982,
+              40.758830404535146
+            ],
+            [
+              -74.13492679595949,
+              40.75935051251767
+            ],
+            [
+              -74.13492679595949,
+              40.759968135461364
+            ],
+            [
+              -74.13372516632081,
+              40.7599356291337
+            ],
+            [
+              -74.13282394409181,
+              40.7599356291337
+            ],
+            [
+              -74.13230895996095,
+              40.7599356291337
+            ],
+            [
+              -74.13282394409181,
+              40.76016317309347
+            ],
+            [
+              -74.13363933563234,
+              40.76091081204838
+            ],
+            [
+              -74.13363933563234,
+              40.761300881208335
+            ],
+            [
+              -74.13389682769777,
+              40.76211351793946
+            ],
+            [
+              -74.13398265838624,
+              40.76266610524155
+            ],
+            [
+              -74.13355350494386,
+              40.763056164100554
+            ],
+            [
+              -74.13252353668214,
+              40.763056164100554
+            ],
+            [
+              -74.13183689117433,
+              40.76354373445522
+            ],
+            [
+              -74.13084983825685,
+              40.763576239018356
+            ],
+            [
+              -74.13029193878175,
+              40.76321868794951
+            ],
+            [
+              -74.13076400756837,
+              40.76286113495717
+            ],
+            [
+              -74.13037776947023,
+              40.76269861023388
+            ],
+            [
+              -74.12986278533937,
+              40.762601095209156
+            ],
+            [
+              -74.12870407104494,
+              40.762958649600414
+            ],
+            [
+              -74.12793159484865,
+              40.763478725281274
+            ],
+            [
+              -74.12737369537355,
+              40.76364124809696
+            ],
+            [
+              -74.12694454193117,
+              40.76373876159561
+            ],
+            [
+              -74.12621498107912,
+              40.76409630986664
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717360029_fm2zmchie",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717360029_fm2zmchie",
+        "description": "",
+        "measurements": {
+          "area": 1001029.8680095412,
+          "areaKm": 1.001029868009541,
+          "perimeter": 4877.189859220487,
+          "vertices": 39
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:02:40.028Z",
+        "updated": "2026-07-10T21:02:58.184Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.12621498107912,
+              40.76409630986664
+            ],
+            [
+              -74.12436962127687,
+              40.763576239018356
+            ],
+            [
+              -74.12291049957277,
+              40.76354373445522
+            ],
+            [
+              -74.12136554718019,
+              40.76338121140108
+            ],
+            [
+              -74.11904811859132,
+              40.76289363985415
+            ],
+            [
+              -74.11797523498537,
+              40.76208101266097
+            ],
+            [
+              -74.11780357360841,
+              40.758992938716844
+            ],
+            [
+              -74.11853313446046,
+              40.75814775663242
+            ],
+            [
+              -74.12029266357423,
+              40.757205040861024
+            ],
+            [
+              -74.12411212921144,
+              40.75590472130863
+            ],
+            [
+              -74.13093566894533,
+              40.75392168502351
+            ],
+            [
+              -74.13093566894533,
+              40.755059499960744
+            ],
+            [
+              -74.13016319274904,
+              40.757627639239345
+            ],
+            [
+              -74.13110733032228,
+              40.75866786995609
+            ],
+            [
+              -74.13183689117433,
+              40.759740590833964
+            ],
+            [
+              -74.13299560546876,
+              40.75915547250112
+            ],
+            [
+              -74.13462638854982,
+              40.758830404535146
+            ],
+            [
+              -74.13492679595949,
+              40.75935051251767
+            ],
+            [
+              -74.13492679595949,
+              40.759968135461364
+            ],
+            [
+              -74.13372516632081,
+              40.7599356291337
+            ],
+            [
+              -74.13282394409181,
+              40.7599356291337
+            ],
+            [
+              -74.13230895996095,
+              40.7599356291337
+            ],
+            [
+              -74.13282394409181,
+              40.76016317309347
+            ],
+            [
+              -74.13363933563234,
+              40.76091081204838
+            ],
+            [
+              -74.13363933563234,
+              40.761300881208335
+            ],
+            [
+              -74.13389682769777,
+              40.76211351793946
+            ],
+            [
+              -74.13398265838624,
+              40.76266610524155
+            ],
+            [
+              -74.13355350494386,
+              40.763056164100554
+            ],
+            [
+              -74.13252353668214,
+              40.763056164100554
+            ],
+            [
+              -74.13183689117433,
+              40.76354373445522
+            ],
+            [
+              -74.13084983825685,
+              40.763576239018356
+            ],
+            [
+              -74.13029193878175,
+              40.76321868794951
+            ],
+            [
+              -74.13076400756837,
+              40.76286113495717
+            ],
+            [
+              -74.13037776947023,
+              40.76269861023388
+            ],
+            [
+              -74.12986278533937,
+              40.762601095209156
+            ],
+            [
+              -74.12870407104494,
+              40.762958649600414
+            ],
+            [
+              -74.12793159484865,
+              40.763478725281274
+            ],
+            [
+              -74.12737369537355,
+              40.76364124809696
+            ],
+            [
+              -74.12694454193117,
+              40.76373876159561
+            ],
+            [
+              -74.12621498107912,
+              40.76409630986664
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717360029_fm2zmchie",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717360029_fm2zmchie",
+        "description": "",
+        "measurements": {
+          "area": 1001029.8680095412,
+          "areaKm": 1.001029868009541,
+          "perimeter": 4877.189859220487,
+          "vertices": 39
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:02:40.028Z",
+        "updated": "2026-07-10T21:02:40.028Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.13321018218996,
+              40.765688996945684
+            ],
+            [
+              -74.13445472717287,
+              40.76438884462396
+            ],
+            [
+              -74.13514137268068,
+              40.76315367635931
+            ],
+            [
+              -74.13625717163087,
+              40.76211351685853
+            ],
+            [
+              -74.13930416107179,
+              40.76377126336098
+            ],
+            [
+              -74.13977622985841,
+              40.76377126336098
+            ],
+            [
+              -74.14059162139894,
+              40.76357623650676
+            ],
+            [
+              -74.14080619812013,
+              40.76282862826395
+            ],
+            [
+              -74.1399908065796,
+              40.761625936489004
+            ],
+            [
+              -74.13831710815431,
+              40.76123586961813
+            ],
+            [
+              -74.13702964782716,
+              40.76071577689616
+            ],
+            [
+              -74.13788795471193,
+              40.75990312387116
+            ],
+            [
+              -74.13896083831789,
+              40.75860285836589
+            ],
+            [
+              -74.14007663726808,
+              40.756554888619675
+            ],
+            [
+              -74.14037704467775,
+              40.75518954040458
+            ],
+            [
+              -74.1405487060547,
+              40.75418176540237
+            ],
+            [
+              -74.13904666900636,
+              40.75353157987466
+            ],
+            [
+              -74.13810253143312,
+              40.75330401343781
+            ],
+            [
+              -74.13737297058107,
+              40.75379165484874
+            ],
+            [
+              -74.1370725631714,
+              40.75369412685269
+            ],
+            [
+              -74.13741588592531,
+              40.752783858657324
+            ],
+            [
+              -74.13741588592531,
+              40.752523779741054
+            ],
+            [
+              -74.13642883300783,
+              40.75223118974426
+            ],
+            [
+              -74.13376808166505,
+              40.75226369980747
+            ],
+            [
+              -74.1326951980591,
+              40.752848878227404
+            ],
+            [
+              -74.13175106048585,
+              40.75356408930207
+            ],
+            [
+              -74.13119316101076,
+              40.75379165484874
+            ],
+            [
+              -74.13110733032228,
+              40.75538459186637
+            ],
+            [
+              -74.13063526153566,
+              40.75691247518516
+            ],
+            [
+              -74.13097858428956,
+              40.75814775943024
+            ],
+            [
+              -74.1324806213379,
+              40.75853784442297
+            ],
+            [
+              -74.13402557373048,
+              40.758472830416466
+            ],
+            [
+              -74.13582801818849,
+              40.75928550092747
+            ],
+            [
+              -74.13518428802492,
+              40.7598706175435
+            ],
+            [
+              -74.13424015045167,
+              40.76029319856307
+            ],
+            [
+              -74.13355350494386,
+              40.76022818627338
+            ],
+            [
+              -74.1344976425171,
+              40.76172345284903
+            ],
+            [
+              -74.13376808166505,
+              40.76328369515235
+            ],
+            [
+              -74.13218021392824,
+              40.76357623650676
+            ],
+            [
+              -74.13140773773195,
+              40.76380376778105
+            ],
+            [
+              -74.13007736206056,
+              40.76308866686742
+            ],
+            [
+              -74.12943363189699,
+              40.76302365731193
+            ],
+            [
+              -74.12806034088136,
+              40.76380376778105
+            ],
+            [
+              -74.12660121917726,
+              40.764226323795356
+            ],
+            [
+              -74.12617206573488,
+              40.76477889299113
+            ],
+            [
+              -74.12690162658693,
+              40.76549397571888
+            ],
+            [
+              -74.12806034088136,
+              40.76549397571888
+            ],
+            [
+              -74.12870407104494,
+              40.764843900829774
+            ],
+            [
+              -74.13020610809328,
+              40.76516893906919
+            ],
+            [
+              -74.13321018218996,
+              40.765688996945684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717423829_gjrwobyga",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717423829_gjrwobyga",
+        "description": "",
+        "measurements": {
+          "area": 796219.1405405971,
+          "areaKm": 0.7962191405405972,
+          "perimeter": 6236.116772573999,
+          "vertices": 49
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:03:43.827Z",
+        "updated": "2026-07-10T21:03:45.111Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.13321018218996,
+              40.765688996945684
+            ],
+            [
+              -74.13445472717287,
+              40.76438884462396
+            ],
+            [
+              -74.13514137268068,
+              40.76315367635931
+            ],
+            [
+              -74.13625717163087,
+              40.76211351685853
+            ],
+            [
+              -74.13930416107179,
+              40.76377126336098
+            ],
+            [
+              -74.13977622985841,
+              40.76377126336098
+            ],
+            [
+              -74.14059162139894,
+              40.76357623650676
+            ],
+            [
+              -74.14080619812013,
+              40.76282862826395
+            ],
+            [
+              -74.1399908065796,
+              40.761625936489004
+            ],
+            [
+              -74.13831710815431,
+              40.76123586961813
+            ],
+            [
+              -74.13702964782716,
+              40.76071577689616
+            ],
+            [
+              -74.13788795471193,
+              40.75990312387116
+            ],
+            [
+              -74.13896083831789,
+              40.75860285836589
+            ],
+            [
+              -74.14007663726808,
+              40.756554888619675
+            ],
+            [
+              -74.14037704467775,
+              40.75518954040458
+            ],
+            [
+              -74.1405487060547,
+              40.75418176540237
+            ],
+            [
+              -74.13904666900636,
+              40.75353157987466
+            ],
+            [
+              -74.13810253143312,
+              40.75330401343781
+            ],
+            [
+              -74.13737297058107,
+              40.75379165484874
+            ],
+            [
+              -74.1370725631714,
+              40.75369412685269
+            ],
+            [
+              -74.13741588592531,
+              40.752783858657324
+            ],
+            [
+              -74.13741588592531,
+              40.752523779741054
+            ],
+            [
+              -74.13642883300783,
+              40.75223118974426
+            ],
+            [
+              -74.13376808166505,
+              40.75226369980747
+            ],
+            [
+              -74.1326951980591,
+              40.752848878227404
+            ],
+            [
+              -74.13175106048585,
+              40.75356408930207
+            ],
+            [
+              -74.13119316101076,
+              40.75379165484874
+            ],
+            [
+              -74.13110733032228,
+              40.75538459186637
+            ],
+            [
+              -74.13063526153566,
+              40.75691247518516
+            ],
+            [
+              -74.13097858428956,
+              40.75814775943024
+            ],
+            [
+              -74.1324806213379,
+              40.75853784442297
+            ],
+            [
+              -74.13402557373048,
+              40.758472830416466
+            ],
+            [
+              -74.13582801818849,
+              40.75928550092747
+            ],
+            [
+              -74.13518428802492,
+              40.7598706175435
+            ],
+            [
+              -74.13424015045167,
+              40.76029319856307
+            ],
+            [
+              -74.13355350494386,
+              40.76022818627338
+            ],
+            [
+              -74.1344976425171,
+              40.76172345284903
+            ],
+            [
+              -74.13376808166505,
+              40.76328369515235
+            ],
+            [
+              -74.13218021392824,
+              40.76357623650676
+            ],
+            [
+              -74.13140773773195,
+              40.76380376778105
+            ],
+            [
+              -74.13007736206056,
+              40.76308866686742
+            ],
+            [
+              -74.12943363189699,
+              40.76302365731193
+            ],
+            [
+              -74.12806034088136,
+              40.76380376778105
+            ],
+            [
+              -74.12660121917726,
+              40.764226323795356
+            ],
+            [
+              -74.12617206573488,
+              40.76477889299113
+            ],
+            [
+              -74.12690162658693,
+              40.76549397571888
+            ],
+            [
+              -74.12806034088136,
+              40.76549397571888
+            ],
+            [
+              -74.12870407104494,
+              40.764843900829774
+            ],
+            [
+              -74.13020610809328,
+              40.76516893906919
+            ],
+            [
+              -74.13321018218996,
+              40.765688996945684
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717423829_gjrwobyga",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717423829_gjrwobyga",
+        "description": "",
+        "measurements": {
+          "area": 796219.1405405971,
+          "areaKm": 0.7962191405405972,
+          "perimeter": 6236.116772573999,
+          "vertices": 49
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:03:43.827Z",
+        "updated": "2026-07-10T21:03:43.827Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08042430877687,
+              40.77972902031421
+            ],
+            [
+              -74.07948017120363,
+              40.779859006613094
+            ],
+            [
+              -74.07879352569581,
+              40.779988992657614
+            ],
+            [
+              -74.07450199127199,
+              40.7679642071067
+            ],
+            [
+              -74.07746315002443,
+              40.77040183950279
+            ],
+            [
+              -74.08042430877687,
+              40.77972902031421
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717469635_ypj9gv9bo",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717469635_ypj9gv9bo",
+        "description": "",
+        "measurements": {
+          "area": 192811.52166205648,
+          "areaKm": 0.19281152166205648,
+          "perimeter": 2960.463241952324,
+          "vertices": 5
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:04:29.633Z",
+        "updated": "2026-07-10T21:04:40.658Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08042430877687,
+              40.77972902031421
+            ],
+            [
+              -74.07948017120363,
+              40.779859006613094
+            ],
+            [
+              -74.07879352569581,
+              40.779988992657614
+            ],
+            [
+              -74.07450199127199,
+              40.7679642071067
+            ],
+            [
+              -74.07746315002443,
+              40.77040183950279
+            ],
+            [
+              -74.08042430877687,
+              40.77972902031421
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717469635_ypj9gv9bo",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717469635_ypj9gv9bo",
+        "description": "",
+        "measurements": {
+          "area": 192811.52166205648,
+          "areaKm": 0.19281152166205648,
+          "perimeter": 2960.463241952324,
+          "vertices": 5
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:04:29.633Z",
+        "updated": "2026-07-10T21:04:29.633Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08437252044679,
+              40.77667426826981
+            ],
+            [
+              -74.08128261566164,
+              40.77888410453853
+            ],
+            [
+              -74.07819271087648,
+              40.77131185996586
+            ],
+            [
+              -74.08437252044679,
+              40.77667426826981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717487207_k42gco932",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717487207_k42gco932",
+        "description": "",
+        "measurements": {
+          "area": 141821.05462995864,
+          "areaKm": 0.14182105462995864,
+          "perimeter": 2030.5663370259126,
+          "vertices": 3
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:04:47.205Z",
+        "updated": "2026-07-10T21:04:56.469Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08437252044679,
+              40.77667426826981
+            ],
+            [
+              -74.08128261566164,
+              40.77888410453853
+            ],
+            [
+              -74.07819271087648,
+              40.77131185996586
+            ],
+            [
+              -74.08437252044679,
+              40.77667426826981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717487207_k42gco932",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717487207_k42gco932",
+        "description": "",
+        "measurements": {
+          "area": 141821.05462995864,
+          "areaKm": 0.14182105462995864,
+          "perimeter": 2030.5663370259126,
+          "vertices": 3
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:04:47.205Z",
+        "updated": "2026-07-10T21:04:47.205Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0856170654297,
+              40.7765117889015
+            ],
+            [
+              -74.07797813415529,
+              40.77066183027184
+            ],
+            [
+              -74.07458782196046,
+              40.76734662507985
+            ],
+            [
+              -74.07368659973146,
+              40.765753967696185
+            ],
+            [
+              -74.07424449920656,
+              40.76471384431271
+            ],
+            [
+              -74.07772064208986,
+              40.76643653982001
+            ],
+            [
+              -74.08166885375978,
+              40.769231762042345
+            ],
+            [
+              -74.08407211303712,
+              40.77179936256735
+            ],
+            [
+              -74.08596038818361,
+              40.774074368735555
+            ],
+            [
+              -74.08716201782228,
+              40.77573182417774
+            ],
+            [
+              -74.0856170654297,
+              40.7765117889015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717529059_cqntoqjo8",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717529059_cqntoqjo8",
+        "description": "",
+        "measurements": {
+          "area": 415629.92891502334,
+          "areaKm": 0.4156299289150233,
+          "perimeter": 3518.960256558986,
+          "vertices": 10
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:05:29.057Z",
+        "updated": "2026-07-10T21:05:53.555Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0856170654297,
+              40.7765117889015
+            ],
+            [
+              -74.07797813415529,
+              40.77066183027184
+            ],
+            [
+              -74.07458782196046,
+              40.76734662507985
+            ],
+            [
+              -74.07368659973146,
+              40.765753967696185
+            ],
+            [
+              -74.07424449920656,
+              40.76471384431271
+            ],
+            [
+              -74.07772064208986,
+              40.76643653982001
+            ],
+            [
+              -74.08166885375978,
+              40.769231762042345
+            ],
+            [
+              -74.08407211303712,
+              40.77179936256735
+            ],
+            [
+              -74.08596038818361,
+              40.774074368735555
+            ],
+            [
+              -74.08716201782228,
+              40.77573182417774
+            ],
+            [
+              -74.0856170654297,
+              40.7765117889015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717529059_cqntoqjo8",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717529059_cqntoqjo8",
+        "description": "",
+        "measurements": {
+          "area": 415629.92891502334,
+          "areaKm": 0.4156299289150233,
+          "perimeter": 3518.960256558986,
+          "vertices": 10
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:05:29.057Z",
+        "updated": "2026-07-10T21:05:29.057Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0861749649048,
+              40.77384689699626
+            ],
+            [
+              -74.08716201782228,
+              40.77316439998658
+            ],
+            [
+              -74.07943725585939,
+              40.76357620102482
+            ],
+            [
+              -74.07849311828615,
+              40.76435630958634
+            ],
+            [
+              -74.0861749649048,
+              40.77384689699626
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717563573_n9mjyluw0",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717563573_n9mjyluw0",
+        "description": "",
+        "measurements": {
+          "area": 139319.0129875563,
+          "areaKm": 0.1393190129875563,
+          "perimeter": 2716.987362059489,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:06:03.571Z",
+        "updated": "2026-07-10T21:06:14.058Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0861749649048,
+              40.77384689699626
+            ],
+            [
+              -74.08716201782228,
+              40.77316439998658
+            ],
+            [
+              -74.07943725585939,
+              40.76357620102482
+            ],
+            [
+              -74.07849311828615,
+              40.76435630958634
+            ],
+            [
+              -74.0861749649048,
+              40.77384689699626
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "anno_1783717563573_n9mjyluw0",
+        "annotationType": "polygon",
+        "name": "polygon anno_1783717563573_n9mjyluw0",
+        "description": "",
+        "measurements": {
+          "area": 139319.0129875563,
+          "areaKm": 0.1393190129875563,
+          "perimeter": 2716.987362059489,
+          "vertices": 4
+        },
+        "groups": [],
+        "layer": null,
+        "style": {
+          "color": "#4285f4",
+          "fillColor": "#4285f4",
+          "fillOpacity": 0.2,
+          "weight": 2,
+          "opacity": 0.7,
+          "dashArray": null
+        },
+        "created": "2026-07-10T21:06:03.571Z",
+        "updated": "2026-07-10T21:06:03.571Z",
+        "fromDatabase": false,
+        "imported": false,
+        "exportTimestamp": "2026-07-10T21:06:58.721Z",
+        "color": "#4285f4",
+        "fillColor": "#4285f4",
+        "fillOpacity": 0.2,
+        "layerInfo": null,
+        "source": "user-created"
+      }
+    }
+  ],
+  "metadata": {
+    "name": "GeoCapture Export",
+    "exportedAt": "2026-07-10T21:06:58.721Z",
+    "totalFeatures": 71,
+    "mapCenter": {
+      "lat": 40.76516893906919,
+      "lng": -74.08029556274415
+    },
+    "mapZoom": 14,
+    "preserveColors": true,
+    "containsImportedData": false
+  }
+}

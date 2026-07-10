@@ -1,10 +1,12 @@
 venv/
+.env
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pth
+.DS_Store
+*.pth
+*/.ipynb_checkpoints
 *.egg-info/
 dist/
-.DS_Store
-*.png
-*.pth
-.vercel
+build/
