@@ -11,7 +11,7 @@ def generate_report(building_pixels: int, urban_pct: int) -> str:
         return "Configuration error: HF_TOKEN not set."
 
     payload = {
-        "model": "HuggingFaceH4/zephyr-7b-beta",
+        "model": "Qwen/Qwen2.5-7B-Instruct",
         "messages": [
             {
                 "role": "system",
