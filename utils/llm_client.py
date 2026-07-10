@@ -39,7 +39,13 @@ def generate_report(building_pixels: int, urban_pct: int) -> str:
             result = json.loads(resp.read().decode())
             choices = result.get("choices", [])
             if choices:
-                return choices[0].get("message", {}).get("content", "").strip()
+                content = choices[0].get("message", {}).get("content", "").strip()
+                # Strip DeepSeek-R1 reasoning tags
+                if content.startswith("<think>"):
+                    end = content.find("</think>")
+                    if end != -1:
+                        content = content[end + 8:].strip()
+                return content
             return str(result)
     except Exception as e:
         return f"Report generation unavailable: {str(e)[:100]}"
