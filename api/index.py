@@ -29,6 +29,37 @@ HF_TOKEN = os.getenv("HF_TOKEN", "")
 async def startup():
     await init_db()
 
+import socket as _socket
+
+@app.get("/api/ping")
+async def ping():
+    results = {}
+    # Test DNS
+    try:
+        import socket
+        info = socket.getaddrinfo("huggingface.co", 443)
+        results["dns_hf"] = f"OK: {info[0][4][0]}"
+    except Exception as e:
+        results["dns_hf"] = f"FAIL: {e}"
+
+    try:
+        info = socket.getaddrinfo("api-inference.huggingface.co", 443)
+        results["dns_api"] = f"OK: {info[0][4][0]}"
+    except Exception as e:
+        results["dns_api"] = f"FAIL: {e}"
+
+    # Test TCP connect
+    try:
+        s = _socket.socket()
+        s.settimeout(5)
+        s.connect(("huggingface.co", 443))
+        results["tcp_hf"] = "OK"
+        s.close()
+    except Exception as e:
+        results["tcp_hf"] = f"FAIL: {e}"
+
+    return results
+
 @app.get("/", response_class=HTMLResponse)
 async def root():
     return """
@@ -212,6 +243,7 @@ async def analyze_image(file: UploadFile = File(...), db: AsyncSession = Depends
         tb = traceback.format_exc()
         raise HTTPException(502, f"ML inference failed: {str(e)[:200]}\n{tb[:2000]}")
     if "error" in ml_data:
+        raise HTTPException(502, f"ML inference error: {ml_data['error']}")
         raise HTTPException(502, f"ML inference error: {ml_data['error']}")
 
     # Generate LLM report
