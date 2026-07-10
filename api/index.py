@@ -5,7 +5,7 @@ from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, func
+from sqlalchemy import select, desc
 import httpx
 import json
 
