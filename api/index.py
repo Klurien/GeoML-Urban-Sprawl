@@ -1,6 +1,4 @@
 import os
-import uuid
-from datetime import datetime
 from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
 import base64
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -28,37 +26,6 @@ HF_TOKEN = os.getenv("HF_TOKEN", "")
 @app.on_event("startup")
 async def startup():
     await init_db()
-
-import socket as _socket
-
-@app.get("/api/ping")
-async def ping():
-    results = {}
-    # Test DNS
-    try:
-        import socket
-        info = socket.getaddrinfo("huggingface.co", 443)
-        results["dns_hf"] = f"OK: {info[0][4][0]}"
-    except Exception as e:
-        results["dns_hf"] = f"FAIL: {e}"
-
-    try:
-        info = socket.getaddrinfo("api-inference.huggingface.co", 443)
-        results["dns_api"] = f"OK: {info[0][4][0]}"
-    except Exception as e:
-        results["dns_api"] = f"FAIL: {e}"
-
-    # Test TCP connect
-    try:
-        s = _socket.socket()
-        s.settimeout(5)
-        s.connect(("huggingface.co", 443))
-        results["tcp_hf"] = "OK"
-        s.close()
-    except Exception as e:
-        results["tcp_hf"] = f"FAIL: {e}"
-
-    return results
 
 @app.get("/", response_class=HTMLResponse)
 async def root():

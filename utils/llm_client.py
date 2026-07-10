@@ -1,37 +1,45 @@
 import os
-import httpx
+import json
+import urllib.request
+import urllib.error
 
 HF_TOKEN = os.getenv("HF_TOKEN", "")
-API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
+API_URL = "https://router.huggingface.co/v1/chat/completions"
 
 def generate_report(building_pixels: int, urban_pct: int) -> str:
     if not HF_TOKEN:
         return "Configuration error: HF_TOKEN not set."
 
-    prompt = f"""<|system|>
-You are a helpful urban planning assistant.
-<|user|>
-My AI analyzed a satellite image and detected {building_pixels} pixels of urban concrete, which represents {urban_pct}% of the image area.
-Write a short 2-paragraph official warning memo to the County Governor about this rapid urbanization and its potential impact on rural agriculture. Provide 1 suggested policy action.
-<|assistant|>"""
-
-    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
     payload = {
-        "inputs": prompt,
-        "parameters": {
-            "max_new_tokens": 200,
-            "temperature": 0.7,
-            "return_full_text": False
-        }
+        "model": "HuggingFaceH4/zephyr-7b-beta",
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful urban planning assistant."
+            },
+            {
+                "role": "user",
+                "content": f"My AI analyzed a satellite image and detected {building_pixels} pixels of urban concrete, which represents {urban_pct}% of the image area. Write a short 2-paragraph official warning memo to the County Governor about this rapid urbanization and its potential impact on rural agriculture. Provide 1 suggested policy action."
+            }
+        ],
+        "max_tokens": 300,
+        "temperature": 0.7,
     }
 
-    with httpx.Client(timeout=30.0) as client:
-        try:
-            response = client.post(API_URL, headers=headers, json=payload)
-            response.raise_for_status()
-            result = response.json()
-            if isinstance(result, list) and len(result) > 0:
-                return result[0].get("generated_text", "").strip()
+    headers = {
+        "Authorization": f"Bearer {HF_TOKEN}",
+        "Content-Type": "application/json",
+    }
+
+    data = json.dumps(payload).encode()
+    req = urllib.request.Request(API_URL, data=data, headers=headers, method="POST")
+
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+            choices = result.get("choices", [])
+            if choices:
+                return choices[0].get("message", {}).get("content", "").strip()
             return str(result)
-        except Exception as e:
-            return f"Report generation unavailable: {str(e)[:100]}"
+    except Exception as e:
+        return f"Report generation unavailable: {str(e)[:100]}"
