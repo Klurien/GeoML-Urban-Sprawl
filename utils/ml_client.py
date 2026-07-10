@@ -1,9 +1,12 @@
 import os
 import base64
-import httpx
+import json
+import urllib.request
+import urllib.error
 from io import BytesIO
 from PIL import Image
 import numpy as np
+import time
 
 HF_TOKEN = os.getenv("HF_TOKEN", "")
 MODEL = "nvidia/segformer-b0-finetuned-ade-512-512"
@@ -13,20 +16,25 @@ def segment_buildings(image_bytes: bytes, max_retries: int = 2) -> dict:
     if not HF_TOKEN:
         return {"error": "HF_TOKEN not set"}
 
-    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+    headers = {
+        "Authorization": f"Bearer {HF_TOKEN}",
+        "Content-Type": "application/octet-stream",
+    }
 
     for attempt in range(max_retries):
-        with httpx.Client(timeout=120.0) as client:
-            response = client.post(API_URL, headers=headers, content=image_bytes)
-
-        if response.status_code == 503 and "loading" in response.text.lower():
-            if attempt < max_retries - 1:
-                import time
-                time.sleep(2 ** attempt)
-                continue
-
-        response.raise_for_status()
-        segments = response.json()
+        req = urllib.request.Request(API_URL, data=image_bytes, headers=headers, method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                segments = json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode()
+            if e.code == 503 and "loading" in body.lower():
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)
+                    continue
+            raise Exception(f"HF API error {e.code}: {body[:200]}")
+        except urllib.error.URLError as e:
+            raise Exception(f"HF API connection failed: {e.reason}")
         break
 
     if not isinstance(segments, list):
