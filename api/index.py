@@ -2,17 +2,16 @@ import os
 import uuid
 from datetime import datetime
 from fastapi import FastAPI, UploadFile, File, Depends, HTTPException
+import base64
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, desc
-import httpx
-import json
-
 from api.database import get_db, init_db, Base, engine
 from api.models import Analysis
 from api.schemas import AnalysisResponse, AnalysisHistory
 from utils.llm_client import generate_report
+from utils.ml_client import segment_buildings
 
 app = FastAPI(title="GeoML Urban Sprawl Analyzer")
 
@@ -24,7 +23,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-HF_SPACES_URL = os.getenv("HF_SPACES_URL", "")
 HF_TOKEN = os.getenv("HF_TOKEN", "")
 
 @app.on_event("startup")
@@ -205,24 +203,14 @@ async def analyze_image(file: UploadFile = File(...), db: AsyncSession = Depends
         raise HTTPException(400, "Only image files are supported")
 
     contents = await file.read()
-    import base64
-    b64 = base64.b64encode(contents).decode()
 
-    # Call HF Spaces API for ML inference
-    if not HF_SPACES_URL:
-        raise HTTPException(500, "HF_SPACES_URL not configured")
-
-    async with httpx.AsyncClient(timeout=60.0) as client:
-        try:
-            ml_res = await client.post(
-                f"{HF_SPACES_URL}/api/predict",
-                json={"image": b64},
-                headers={"Authorization": f"Bearer {HF_TOKEN}"}
-            )
-            ml_res.raise_for_status()
-            ml_data = ml_res.json()
-        except Exception as e:
-            raise HTTPException(502, f"ML inference failed: {str(e)[:150]}")
+    # Run ML inference via HF Inference API directly
+    try:
+        ml_data = await segment_buildings(contents)
+    except Exception as e:
+        raise HTTPException(502, f"ML inference failed: {str(e)[:150]}")
+    if "error" in ml_data:
+        raise HTTPException(502, f"ML inference error: {ml_data['error']}")
 
     # Generate LLM report
     report = await generate_report(ml_data.get("building_pixels", 0), ml_data.get("urban_percentage", 0))
@@ -247,7 +235,7 @@ async def analyze_image(file: UploadFile = File(...), db: AsyncSession = Depends
         "total_pixels": analysis.total_pixels,
         "urban_percentage": analysis.urban_percentage,
         "llm_report": report,
-        "original_image_url": f"data:image/{file.filename.split('.')[-1] if '.' in file.filename else 'png'};base64,{b64}",
+        "original_image_url": f"data:image/{file.filename.split('.')[-1] if '.' in file.filename else 'png'};base64,{base64.b64encode(contents).decode()}",
         "mask_image_url": f"data:image/png;base64,{ml_data.get('mask_b64', '')}",
         "created_at": analysis.created_at.isoformat(),
     }
