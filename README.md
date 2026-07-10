@@ -1,74 +1,36 @@
-# GeoML Urban Sprawl Analyzer
+# GeoML Urban Sprawl Detector
 
-Deployed on **Vercel** + **Hugging Face Spaces** + **Vercel Postgres**.
+Satellite image building detection with AI-generated policy reports.
 
-## Architecture
-
-```
-User Browser → Vercel (FastAPI + HTML frontend)
-                  ↓
-             Vercel Postgres (Neon) — stores analysis history
-                  ↓
-             Hugging Face Spaces — DeepLabV3 ML inference
-                  ↓
-             Hugging Face API — LLM report generation (Zephyr-7B)
-```
-
-## Project Structure
-
-```
-GeoML_WebApp/
-├── api/index.py           # FastAPI backend (Vercel serverless)
-├── api/database.py        # PostgreSQL connection (SQLAlchemy)
-├── api/models.py          # Database models
-├── api/schemas.py         # Pydantic schemas
-├── utils/model_loader.py  # DeepLabV3 model
-├── utils/llm_client.py    # Hugging Face Inference API client
-├── hf_spaces/app.py       # Gradio ML backend (HF Spaces)
-├── data/fetch_real_image.py  # Fetch real satellite tiles
-├── vercel.json            # Vercel config
-├── requirements.txt       # Python deps
-└── .env.example           # Environment variable template
-```
-
-## Deployment Steps
-
-### 1. Deploy ML Backend to Hugging Face Spaces
-
-```bash
-# Create a Space at huggingface.co/new-space
-# SDK: Gradio, Hardware: CPU (free) or GPU
-# Upload hf_spaces/app.py and hf_spaces/requirements.txt
-```
-
-### 2. Deploy Vercel App
-
-```bash
-# Push to GitHub, then:
-vercel --prod
-```
-
-### 3. Set Environment Variables (Vercel Dashboard)
-
-| Variable | Value |
-|----------|-------|
-| `DATABASE_URL` | `postgresql://...` (Vercel Postgres) |
-| `HF_TOKEN` | `hf_...` (Hugging Face token) |
-| `HF_SPACES_URL` | `https://your-space.hf.space` |
-
-### 4. Fetch Real Satellite Image
-
-```bash
-cd data
-python fetch_real_image.py
-# Output: real_satellite_image.png
-```
-
-## Local Development
+## Quick Start
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-uvicorn api.index:app --reload
+python data/fetch_real_image.py
+python app.py
 ```
+
+## Deploy on Hugging Face Spaces
+
+1. Go to https://huggingface.co/new-space
+2. Name: `geo-urban-detector`, SDK: **Gradio**
+3. Upload `app.py` and `requirements.txt`
+4. Settings → Repository secrets → add `HF_TOKEN` with your Hugging Face token
+5. Wait 2 min for build
+
+## Architecture
+
+```
+Browser → Gradio → DeepLabV3 (on CPU/GPU) → HF Inference API (Zephyr-7B) → Mask + Report
+```
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `app.py` | Gradio web app with model + LLM |
+| `data/fetch_real_image.py` | Download real satellite image from GeoJSON bounds |
+| `data/geoml_hackerthon.geojson` | Labeled urban polygons |
+| `.env` | `HF_TOKEN=hf_...` |
