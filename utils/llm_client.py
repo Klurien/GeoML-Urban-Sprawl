@@ -11,7 +11,7 @@ def generate_report(building_pixels: int, urban_pct: int) -> str:
         return "Configuration error: HF_TOKEN not set."
 
     payload = {
-        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "model": "deepseek-ai/DeepSeek-R1",
         "messages": [
             {
                 "role": "system",
@@ -22,7 +22,7 @@ def generate_report(building_pixels: int, urban_pct: int) -> str:
                 "content": f"My AI analyzed a satellite image and detected {building_pixels} pixels of urban concrete, which represents {urban_pct}% of the image area. Write a short 2-paragraph official warning memo to the County Governor about this rapid urbanization and its potential impact on rural agriculture. Provide 1 suggested policy action."
             }
         ],
-        "max_tokens": 300,
+        "max_tokens": 500,
         "temperature": 0.7,
     }
 
