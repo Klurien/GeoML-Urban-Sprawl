@@ -1,3 +1,12 @@
+---
+title: GeoML Urban Sprawl Detector
+emoji: 🏙️
+colorFrom: blue
+colorTo: indigo
+sdk: static
+pinned: false
+---
+
 # GeoML Urban Sprawl Detector
 
 Satellite image building detection with AI-generated policy reports.
