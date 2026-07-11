@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoML Urban Sprawl Detector</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; background: #0f172a; color: #e2e8f0; }
+        h1 { color: #38bdf8; }
+        a { color: #818cf8; }
+        .card { background: #1e293b; border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+        code { background: #334155; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+        .btn { display: inline-block; background: #2563eb; color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>🏙️ GeoML Urban Sprawl Detector</h1>
+    <p>Satellite image segmentation + AI-generated policy reports.</p>
+
+    <div class="card">
+        <h2>How it works</h2>
+        <ol>
+            <li>Upload a satellite image (e.g. from Esri, Google Maps)</li>
+            <li>DeepLabV3 ResNet50 (PyTorch) segments buildings (COCO class 8)</li>
+            <li>Pixel count → Zephyr-7B via Hugging Face Inference API → policy memo</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>Run Locally</h2>
+        <pre><code>git clone https://github.com/Klurien/GeoML-Urban-Sprawl
+cd GeoML-Urban-Sprawl
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+echo "HF_TOKEN=your_hf_token" > .env
+python app.py</code></pre>
+        <p>Open <a href="http://localhost:7860">http://localhost:7860</a></p>
+        <a class="btn" href="https://github.com/Klurien/GeoML-Urban-Sprawl" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="card">
+        <h2>Data</h2>
+        <p>Labeled urban polygons in <code>data/geoml_hackerthon.geojson</code> (Newark, NJ area).</p>
+        <p>Real satellite imagery downloaded via contextily (Esri satellite tiles).</p>
+    </div>
+
+    <p style="text-align:center; margin-top: 2rem; color: #64748b;">Built for GeoML Datathon 2026</p>
+</body>
+</html>

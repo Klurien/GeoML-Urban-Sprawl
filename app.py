@@ -63,4 +63,4 @@ with gr.Blocks(title="Urban Sprawl Detector") as demo:
     gr.Markdown("Built for GeoML Datathon 2026")
 
 if __name__ == "__main__":
-    demo.launch(server_port=7860)
+    demo.launch(server_port=7860, share=False)

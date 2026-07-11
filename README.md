@@ -21,13 +21,16 @@ python data/fetch_real_image.py
 python app.py
 ```
 
-## Deploy on Hugging Face Spaces
+## Free Public URL (no deploy needed)
 
-1. Go to https://huggingface.co/new-space
-2. Name: `geo-urban-detector`, SDK: **Gradio**
-3. Upload `app.py` and `requirements.txt`
-4. Settings → Repository secrets → add `HF_TOKEN` with your Hugging Face token
-5. Wait 2 min for build
+Gradio has built-in `share=True` to create a temporary public URL for free (valid ~72h):
+
+```bash
+python -c "
+import app
+app.demo.launch(share=True)
+"
+```
 
 ## Architecture
 
